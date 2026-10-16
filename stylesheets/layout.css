@@ -1,0 +1,6327 @@
+/* Размеры пропорциональны фрейму 5191 px в Figma. 1vw — 1% ширины окна. */
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: "Golos Text", Arial, sans-serif; color: #292521; background: #f5f0e5; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+button, input, textarea { font: inherit; color: inherit; border-radius: 0; }
+button { padding: 0; background: none; }
+img { display: block; }
+h1 { font-weight: inherit; }
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid #a3292b; outline-offset: 3px; }
+.decoration { pointer-events: none; }
+.cell .gate { transition: transform 0.6s ease; pointer-events: none; }
+.cell:hover .gate, .cell:focus-visible .gate { transform: translateX(100%); }
+.form-input { padding: 0; border: 0; background: transparent; resize: vertical; }
+.form-input::placeholder { color: inherit; opacity: 1; }
+.form-input:focus { outline: none; }
+button:disabled { cursor: default; }
+
+body { color: #2b180a; background: #fbfcea; }
+button:disabled { opacity: 1; }
+
+.01-5191-1 {
+  background-color: #fbfcea;
+  position: relative;
+  width: 100%;
+  height: 132.374994vw;
+}
+
+.v2-header-1 {
+  position: absolute;
+  background-color: #d7d5c7;
+  height: 6.74999vw;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.a-1 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.499904vw;
+  font-size: 3vw;
+  color: #243e42;
+  text-align: left;
+  top: 1.125024vw;
+  width: 28.437507vw;
+}
+
+.p-1 {
+  line-height: 1.05;
+}
+
+.p-2 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.624928vw;
+  color: #a3292b;
+  top: 4.687536vw;
+  width: 32.5vw;
+}
+
+.a-2 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 43.125024vw;
+  font-size: 1vw;
+  color: #243e42;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.p-3 {
+  line-height: 1.25;
+}
+
+.a-3 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 54.624928vw;
+  font-size: 1vw;
+  color: #243e42;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.a-4 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 65vw;
+  font-size: 1vw;
+  color: #243e42;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.a-5 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 75.624928vw;
+  font-size: 1vw;
+  color: #243e42;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.v2-action-1 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.525005vw;
+  left: 82.749952vw;
+  top: 1.562512vw;
+  width: 13.864997vw;
+}
+
+.p-4 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.292429vw;
+  font-size: 0.940089vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 1.174918vw;
+  width: 9.693758vw;
+}
+
+.direction-arrow-1 {
+  position: absolute;
+  height: 0.8225vw;
+  left: 11.456174vw;
+  top: 1.40994vw;
+  width: 1.116259vw;
+}
+
+.div-1 {
+  position: absolute;
+  inset: -5% -3.68%;
+}
+
+.img-1 {
+  display: block;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+.prison-entrance-human-wedding-archive-1 {
+  position: absolute;
+  background-color: #243e42;
+  height: 46.5vw;
+  left: 0;
+  overflow: hidden;
+  top: 6.749952vw;
+  width: 100vw;
+}
+
+.illustration-1 {
+  position: absolute;
+  height: 46.5vw;
+  left: 43.125024vw;
+  overflow: hidden;
+  top: 0;
+  width: 56.874995vw;
+}
+
+.img-2 {
+  position: absolute;
+  inset: 0;
+  max-width: none;
+  object-fit: cover;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.threshold-shadow-1 {
+  position: absolute;
+  background-color: #243e42;
+  height: 46.5vw;
+  left: 41.125024vw;
+  opacity: 0.7;
+  top: 0;
+  width: 4.5vw;
+}
+
+.p-5 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #e9dfc9;
+  top: 2.749952vw;
+  width: 40vw;
+}
+
+.h1-1 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.250048vw;
+  font-size: 7vw;
+  color: #fbfcea;
+  top: 7.18744vw;
+  width: 39.374995vw;
+}
+
+.span-1 {
+  line-height: 1;
+  margin-bottom: 0;
+  display: block;
+}
+
+.span-2 {
+  line-height: 1;
+  display: block;
+}
+
+.div-2 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 3.749952vw;
+  font-size: 1.562493vw;
+  color: #e9dfc9;
+  top: 29.687536vw;
+  width: 37.5vw;
+}
+
+.p-6 {
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.p-7 {
+  line-height: 1.4;
+}
+
+.v2-action-2 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 4.2vw;
+  left: 3.749952vw;
+  top: 37.500096vw;
+  width: 16.519996vw;
+}
+
+.p-8 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.539973vw;
+  font-size: 1.120015vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 1.399923vw;
+  width: 11.54999vw;
+}
+
+.direction-arrow-2 {
+  position: absolute;
+  height: 0.980004vw;
+  left: 13.649971vw;
+  top: 1.680023vw;
+  width: 1.329994vw;
+}
+
+.a-6 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 22vw;
+  font-size: 1.125005vw;
+  color: #fbfcea;
+  top: 38.749952vw;
+  width: 18.125005vw;
+}
+
+.div-3 {
+  position: absolute;
+  display: flex;
+  height: 15.768792vw;
+  align-items: center;
+  justify-content: center;
+  left: 72.570025vw;
+  top: 33.562512vw;
+  width: 22.016548vw;
+}
+
+.div-4 {
+  flex: none;
+  transform: rotate(6deg);
+}
+
+.v1-document-folder-1 {
+  height: 13.680004vw;
+  position: relative;
+  width: 20.7vw;
+}
+
+.shadow-1 {
+  position: absolute;
+  height: 13.680004vw;
+  left: 0;
+  top: 0;
+  width: 20.7vw;
+}
+
+.div-5 {
+  position: absolute;
+  inset: 0 -0.76% -1.81% 0;
+}
+
+.folder-tab-1 {
+  position: absolute;
+  height: 12.780004vw;
+  left: 0;
+  top: -0.810056vw;
+  width: 20.7vw;
+}
+
+.div-6 {
+  position: absolute;
+  inset: -0.18% -0.11%;
+}
+
+.img-3 {
+  position: absolute;
+  display: block;
+  inset: 0;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+
+.div-7 {
+  position: absolute;
+  inset: -0.11% 0;
+}
+
+.p-9 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.3;
+  left: 1.800039vw;
+  font-style: normal;
+  font-size: 1.350029vw;
+  color: #2b180a;
+  top: 3.419958vw;
+  width: 17.1vw;
+}
+
+.p-10 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.3;
+  left: 1.800039vw;
+  font-style: normal;
+  font-size: 0.629936vw;
+  color: #6a4227;
+  top: 6.165093vw;
+  width: 17.1vw;
+}
+
+.record-field-0-1 {
+  position: absolute;
+  height: 0;
+  left: 1.800039vw;
+  top: 8.324986vw;
+  width: 16.64999vw;
+}
+
+.div-8 {
+  position: absolute;
+  inset: -0.022539vw 0;
+}
+
+.record-field-1-1 {
+  position: absolute;
+  height: 0;
+  left: 1.800039vw;
+  top: 9.944905vw;
+  width: 16.64999vw;
+}
+
+.record-field-2-1 {
+  position: absolute;
+  height: 0;
+  left: 1.800039vw;
+  top: 11.565016vw;
+  width: 16.64999vw;
+}
+
+.red-thread-route-or-emphasis-1 {
+  position: absolute;
+  height: 15.535581vw;
+  left: 3.749952vw;
+  top: 27.728376vw;
+  width: 71.5vw;
+}
+
+.div-9 {
+  position: absolute;
+  inset: -0.81% -0.17% -0.8% -0.17%;
+}
+
+.thread-textile-fiber-1 {
+  position: absolute;
+  height: 15.535581vw;
+  left: 3.787517vw;
+  top: 27.690811vw;
+  width: 71.5vw;
+}
+
+.div-10 {
+  position: absolute;
+  inset: -0.12% 0;
+}
+
+.red-thread-route-or-emphasis-2 {
+  position: absolute;
+  height: 5.705818vw;
+  left: 2.130803vw;
+  top: 37.440763vw;
+  width: 21.74425vw;
+}
+
+.div-11 {
+  position: absolute;
+  inset: -1.48% -0.39%;
+}
+
+.thread-textile-fiber-2 {
+  position: absolute;
+  height: 5.705818vw;
+  left: 2.168176vw;
+  top: 37.40339vw;
+  width: 21.74425vw;
+}
+
+.div-12 {
+  position: absolute;
+  inset: -0.33% 0;
+}
+
+.prison-address-three-facts-1 {
+  overflow-wrap: break-word;
+  position: absolute;
+  background-color: #d7d5c7;
+  height: 7.874995vw;
+  left: 0;
+  overflow: hidden;
+  color: #2b180a;
+  top: 53.250048vw;
+  width: 100vw;
+}
+
+.p-11 {
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.874995vw;
+  top: 1.749952vw;
+  width: 27.5vw;
+}
+
+.p-12 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.749952vw;
+  font-size: 2.125005vw;
+  top: 3.499904vw;
+  width: 27.5vw;
+}
+
+.p-13 {
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 36.312464vw;
+  font-style: normal;
+  font-size: 0.874995vw;
+  top: 1.749952vw;
+  width: 27.5vw;
+}
+
+.p-14 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 36.312464vw;
+  font-size: 2.125005vw;
+  top: 3.499904vw;
+  width: 27.5vw;
+}
+
+.p-15 {
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 68.125024vw;
+  font-style: normal;
+  font-size: 0.874995vw;
+  top: 1.749952vw;
+  width: 27.5vw;
+}
+
+.p-16 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 68.125024vw;
+  font-size: 2.125005vw;
+  top: 3.499904vw;
+  width: 27.5vw;
+}
+
+.three-human-dossiers-short-stories-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 41.874995vw;
+  left: 0;
+  overflow: hidden;
+  top: 61.125024vw;
+  width: 100vw;
+}
+
+.div-13 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.499904vw;
+  font-size: 3.812502vw;
+  color: #2b180a;
+  top: 1.937584vw;
+  width: 66.874995vw;
+}
+
+.p-17 {
+  line-height: 1.05;
+  margin-bottom: 0;
+}
+
+.a-7 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 78.874976vw;
+  font-size: 1.125005vw;
+  color: #2b180a;
+  top: 5.312464vw;
+  width: 17.187498vw;
+}
+
+.v2-human-dossier-1 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 30.6vw;
+  left: 4.500096vw;
+  top: 10.499904vw;
+  width: 24.6vw;
+}
+
+.personal-dossier-layered-leaf-1 {
+  position: absolute;
+  height: 30.6vw;
+  left: 0;
+  top: 0;
+  width: 24.6vw;
+}
+
+.div-14 {
+  position: absolute;
+  inset: -3.63% -1.59% -1.67% -1.83%;
+}
+
+.p-18 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.020035vw;
+  font-style: normal;
+  font-size: 0.600077vw;
+  color: #2b180a;
+  text-align: left;
+  top: -0.900019vw;
+  width: 9vw;
+}
+
+.v1-object-rings-1 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 14.519996vw;
+  left: 1.680023vw;
+  top: 1.680023vw;
+  width: 21.119996vw;
+}
+
+.paper-outline-1 {
+  position: absolute;
+  height: 14.322vw;
+  left: 0.131959vw;
+  top: 0;
+  width: 20.790002vw;
+}
+
+.div-15 {
+  position: absolute;
+  inset: -0.16% -0.12% -0.16% -0.11%;
+}
+
+.ring-first-1 {
+  position: absolute;
+  height: 5.904334vw;
+  left: 6.496243vw;
+  top: 4.685995vw;
+  width: 5.310287vw;
+}
+
+.div-16 {
+  position: absolute;
+  inset: -1.23% -1.37%;
+}
+
+.ring-second-1 {
+  position: absolute;
+  height: 6.404045vw;
+  left: 9.680216vw;
+  top: 3.778463vw;
+  width: 5.54242vw;
+}
+
+.div-17 {
+  position: absolute;
+  inset: -1.29% -1.49%;
+}
+
+.thread-1 {
+  position: absolute;
+  height: 3.487652vw;
+  left: -1.319977vw;
+  top: 8.250048vw;
+  width: 23.627991vw;
+}
+
+.div-18 {
+  position: absolute;
+  inset: -1.23% -0.13% -1.51% 0;
+}
+
+.p-19 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.254094vw;
+  font-style: normal;
+  font-size: 0.528029vw;
+  color: #6a4227;
+  text-align: left;
+  top: 13.001926vw;
+  width: 18.743999vw;
+}
+
+.p-20 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.680023vw;
+  font-style: normal;
+  font-size: 0.720092vw;
+  color: #a3292b;
+  text-align: left;
+  top: 17.759969vw;
+  width: 21.360008vw;
+}
+
+.div-19 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 1.680023vw;
+  font-size: 2.340012vw;
+  color: #2b180a;
+  text-align: left;
+  top: 19.560008vw;
+  width: 21.360008vw;
+}
+
+.div-20 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 1.680023vw;
+  font-size: 1.020035vw;
+  color: #6a4227;
+  text-align: left;
+  top: 25.739935vw;
+  width: 21.360008vw;
+}
+
+.v2-human-dossier-2 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 30.6vw;
+  left: 36.375072vw;
+  top: 10.499904vw;
+  width: 24.6vw;
+}
+
+.wedding-ribbon-1 {
+  position: absolute;
+  height: 8.87016vw;
+  left: 3.871123vw;
+  top: 3.999807vw;
+  width: 13.573377vw;
+}
+
+.div-21 {
+  position: absolute;
+  inset: -1.15% -0.75% -0.85% -0.75%;
+}
+
+.loose-end-1 {
+  position: absolute;
+  height: 3.533866vw;
+  left: -0.528029vw;
+  top: 9.699287vw;
+  width: 22.638008vw;
+}
+
+.div-22 {
+  position: absolute;
+  inset: -1.31% -0.14% -1.31% -0.1%;
+}
+
+.v2-human-dossier-3 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 30.6vw;
+  left: 68.250048vw;
+  top: 10.499904vw;
+  width: 24.6vw;
+}
+
+.pressed-stem-1 {
+  position: absolute;
+  height: 5.675997vw;
+  left: 9.700058vw;
+  top: 6.072048vw;
+  width: 0.970256vw;
+}
+
+.div-23 {
+  position: absolute;
+  inset: -0.34% -4.42% 0 -4.42%;
+}
+
+.petal-red-1 {
+  position: absolute;
+  height: 4.847929vw;
+  left: 7.961857vw;
+  top: 2.497785vw;
+  width: 5.639048vw;
+}
+
+.div-24 {
+  position: absolute;
+  inset: -0.68% -0.59%;
+}
+
+.leaf-1 {
+  position: absolute;
+  height: 2.387189vw;
+  left: 8.098247vw;
+  top: 8.700828vw;
+  width: 3.879484vw;
+}
+
+.div-25 {
+  position: absolute;
+  inset: -1.8% -1.11% -1.61% -1.11%;
+}
+
+.invitation-1 {
+  position: absolute;
+  background-color: #d7d5c7;
+  height: 14.687498vw;
+  left: 0;
+  overflow: hidden;
+  top: 103vw;
+  width: 100vw;
+}
+
+.p-21 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.499904vw;
+  font-size: 3.562493vw;
+  color: #2b180a;
+  top: 2.375072vw;
+  width: 63.125005vw;
+}
+
+.p-22 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.187498vw;
+  color: #2b180a;
+  top: 9.687536vw;
+  width: 58.74999vw;
+}
+
+.v2-action-3 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.74999vw;
+  left: 77.749952vw;
+  top: 6.062416vw;
+  width: 14.74999vw;
+}
+
+.p-23 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.375072vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 1.250048vw;
+  width: 10.312502vw;
+}
+
+.direction-arrow-3 {
+  position: absolute;
+  height: 0.874995vw;
+  left: 12.18744vw;
+  top: 1.499904vw;
+  width: 1.187498vw;
+}
+
+.red-thread-route-or-emphasis-3 {
+  position: absolute;
+  height: 6.037546vw;
+  left: 76.560971vw;
+  top: 5.177037vw;
+  width: 17.214217vw;
+}
+
+.div-26 {
+  position: absolute;
+  inset: -1.29% -0.45%;
+}
+
+.thread-textile-fiber-3 {
+  position: absolute;
+  height: 6.037546vw;
+  left: 76.598343vw;
+  top: 5.139472vw;
+  width: 17.214217vw;
+}
+
+.div-27 {
+  position: absolute;
+  inset: -0.31% -0.11%;
+}
+
+.v2-footer-1 {
+  overflow-wrap: break-word;
+  position: absolute;
+  background-color: #243e42;
+  height: 14.687498vw;
+  left: 0;
+  top: 117.687536vw;
+  width: 100vw;
+}
+
+.a-8 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.437488vw;
+  font-size: 3.437488vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 2.375072vw;
+  width: 35vw;
+}
+
+.p-24 {
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.250048vw;
+  color: #e9dfc9;
+  top: 7.437488vw;
+  width: 38.74999vw;
+}
+
+.a-9 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 53.437488vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  top: 3.250048vw;
+  width: 18.74999vw;
+}
+
+.a-10 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 53.437488vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  top: 6.437488vw;
+  width: 18.74999vw;
+}
+
+.a-11 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 74.375072vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  top: 3.250048vw;
+  width: 18.74999vw;
+}
+
+.a-12 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 74.375072vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  top: 6.437488vw;
+  width: 18.74999vw;
+}
+
+.p-25 {
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.687536vw;
+  color: #7d9091;
+  top: 12.125024vw;
+  width: 42.5vw;
+}
+
+.02-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 207.750005vw;
+}
+
+.v2-header-2 {
+  background-color: #d7d5c7;
+  height: 6.74999vw;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-26 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.499904vw;
+  font-size: 3vw;
+  color: #243e42;
+  top: 1.125024vw;
+  width: 28.437507vw;
+}
+
+.a-13 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 43.125024vw;
+  font-size: 1vw;
+  color: #243e42;
+  text-align: left;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.concept-who-what-why-introduction-1 {
+  background-color: #d7d5c7;
+  height: 30.5vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-27 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #a3292b;
+  top: 2.125024vw;
+  width: 46.24999vw;
+}
+
+.h1-2 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.250048vw;
+  font-size: 5.5vw;
+  color: #2b180a;
+  top: 6.500096vw;
+  width: 58.125005vw;
+}
+
+.div-28 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 3.749952vw;
+  font-size: 1.5vw;
+  color: #6a4227;
+  top: 21.250048vw;
+  width: 55.625005vw;
+}
+
+.illustration-2 {
+  position: absolute;
+  height: 24.374995vw;
+  left: 64.375072vw;
+  overflow: hidden;
+  top: 2.937584vw;
+  width: 31.874995vw;
+}
+
+.block-1 {
+  position: absolute;
+  height: 1.874995vw;
+  left: 3.749952vw;
+  top: 18.562512vw;
+  width: 47.5vw;
+}
+
+.concept-who-what-where-and-for-whom-1 {
+  overflow-wrap: break-word;
+  background-color: #fbfcea;
+  height: 25.937507vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-28 {
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.812502vw;
+  color: #a3292b;
+  top: 2.312464vw;
+  width: 26.874995vw;
+}
+
+.p-29 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.749952vw;
+  font-size: 2.562493vw;
+  color: #2b180a;
+  top: 5.18744vw;
+  width: 26.874995vw;
+}
+
+.p-30 {
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.312502vw;
+  color: #6a4227;
+  top: 12.81256vw;
+  width: 26.874995vw;
+}
+
+.p-31 {
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 35.375072vw;
+  font-style: normal;
+  font-size: 0.812502vw;
+  color: #a3292b;
+  top: 2.312464vw;
+  width: 26.874995vw;
+}
+
+.p-32 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 35.375072vw;
+  font-size: 2.562493vw;
+  color: #2b180a;
+  top: 5.18744vw;
+  width: 26.874995vw;
+}
+
+.p-33 {
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 35.375072vw;
+  font-size: 1.312502vw;
+  color: #6a4227;
+  top: 12.81256vw;
+  width: 26.874995vw;
+}
+
+.p-34 {
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 67vw;
+  font-style: normal;
+  font-size: 0.812502vw;
+  color: #a3292b;
+  top: 2.312464vw;
+  width: 26.874995vw;
+}
+
+.p-35 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 67vw;
+  font-size: 2.562493vw;
+  color: #2b180a;
+  top: 5.18744vw;
+  width: 26.874995vw;
+}
+
+.p-36 {
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 67vw;
+  font-size: 1.312502vw;
+  color: #6a4227;
+  top: 12.81256vw;
+  width: 26.874995vw;
+}
+
+.concept-former-prison-becomes-a-wedding-archi-1 {
+  background-color: #d7d5c7;
+  height: 29.562493vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-37 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #a3292b;
+  top: 1.687536vw;
+  width: 88.75001vw;
+}
+
+.illustration-3 {
+  position: absolute;
+  height: 19.374995vw;
+  left: 3.874976vw;
+  overflow: hidden;
+  top: 4.500096vw;
+  width: 44.812502vw;
+}
+
+.illustration-4 {
+  position: absolute;
+  height: 19.374995vw;
+  left: 51.250048vw;
+  overflow: hidden;
+  top: 4.500096vw;
+  width: 44.812502vw;
+}
+
+.p-38 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.81256vw;
+  font-size: 2.374995vw;
+  color: #2b180a;
+  top: 25.125024vw;
+  width: 45vw;
+}
+
+.p-39 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 51.18744vw;
+  font-size: 2.374995vw;
+  color: #2b180a;
+  top: 25.125024vw;
+  width: 45.625005vw;
+}
+
+.red-thread-route-or-emphasis-4 {
+  position: absolute;
+  height: 2.979118vw;
+  left: 46vw;
+  top: 14.347525vw;
+  width: 5.687498vw;
+}
+
+.div-29 {
+  position: absolute;
+  inset: -3.36% -1.76%;
+}
+
+.thread-textile-fiber-4 {
+  position: absolute;
+  height: 2.979118vw;
+  left: 46.037565vw;
+  top: 14.30996vw;
+  width: 5.687498vw;
+}
+
+.div-30 {
+  position: absolute;
+  inset: -0.63% -0.33%;
+}
+
+.concept-irreversible-time-full-statement-1 {
+  background-color: #243e42;
+  height: 32.5vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.div-31 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.437488vw;
+  font-size: 4.687498vw;
+  color: #fbfcea;
+  top: 2.81256vw;
+  width: 85vw;
+}
+
+.p-40 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.74999vw;
+  color: #e9dfc9;
+  top: 16.437488vw;
+  width: 80vw;
+}
+
+.block-2 {
+  position: absolute;
+  height: 2.437507vw;
+  left: 3.749952vw;
+  top: 13.312464vw;
+  width: 70.625005vw;
+}
+
+.concept-name-prison-and-red-thread-1 {
+  background-color: #7d9091;
+  height: 38.437507vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.illustration-5 {
+  position: absolute;
+  height: 25.312502vw;
+  left: 3.125024vw;
+  overflow: hidden;
+  top: 7.18744vw;
+  width: 50.625005vw;
+}
+
+.p-41 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.624928vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #243e42;
+  top: 22.937584vw;
+  width: 15.374995vw;
+}
+
+.p-42 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 17.749952vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #243e42;
+  top: 22.937584vw;
+  width: 15.374995vw;
+}
+
+.p-43 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 33.874976vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #243e42;
+  top: 22.937584vw;
+  width: 15.374995vw;
+}
+
+.personal-dossier-layered-leaf-2 {
+  position: absolute;
+  height: 26.874995vw;
+  left: 56.624928vw;
+  top: 6.062416vw;
+  width: 39vw;
+}
+
+.folder-back-1 {
+  position: absolute;
+  height: 28.5vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 39.812502vw;
+}
+
+.offset-sheet-1 {
+  position: absolute;
+  height: 27.062493vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 38.937507vw;
+}
+
+.document-paper-1 {
+  position: absolute;
+  height: 26.874995vw;
+  left: 0;
+  top: 0;
+  width: 39vw;
+}
+
+.fold-detail-1 {
+  position: absolute;
+  height: 25.812502vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 37.75001vw;
+}
+
+.p-44 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.874976vw;
+  font-style: normal;
+  font-size: 0.687498vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 35vw;
+}
+
+.div-32 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 2vw;
+  font-size: 3.687498vw;
+  color: #2b180a;
+  top: 2vw;
+  width: 34.812502vw;
+}
+
+.div-33 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 2vw;
+  font-size: 1.374995vw;
+  color: #6a4227;
+  top: 11.18744vw;
+  width: 34.812502vw;
+  white-space: pre-wrap;
+}
+
+.red-thread-route-or-emphasis-5 {
+  position: absolute;
+  height: 9.773531vw;
+  left: 1.81256vw;
+  top: 24.749952vw;
+  width: 55.367309vw;
+}
+
+.div-34 {
+  position: absolute;
+  inset: -0.96% -0.17%;
+}
+
+.thread-textile-fiber-5 {
+  position: absolute;
+  height: 9.773531vw;
+  left: 1.849933vw;
+  top: 24.712579vw;
+  width: 55.367309vw;
+}
+
+.div-35 {
+  position: absolute;
+  inset: -0.19% 0;
+}
+
+.concept-visitor-experience-and-human-contribu-1 {
+  background-color: #d7d5c7;
+  height: 29.374995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-45 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.437488vw;
+  font-size: 4.562493vw;
+  color: #2b180a;
+  top: 2.624928vw;
+  width: 45.625005vw;
+}
+
+.div-36 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 3.749952vw;
+  font-size: 1.437507vw;
+  color: #6a4227;
+  top: 10.062416vw;
+  width: 51.874995vw;
+}
+
+.personal-dossier-layered-leaf-3 {
+  position: absolute;
+  height: 19.437507vw;
+  left: 62.18744vw;
+  top: 4vw;
+  width: 33.437507vw;
+}
+
+.folder-back-2 {
+  position: absolute;
+  height: 21.062493vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 34.24999vw;
+}
+
+.div-37 {
+  position: absolute;
+  inset: -0.15% 0;
+}
+
+.offset-sheet-2 {
+  position: absolute;
+  height: 19.625005vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 33.374995vw;
+}
+
+.div-38 {
+  position: absolute;
+  inset: -0.16% 0;
+}
+
+.document-paper-2 {
+  position: absolute;
+  height: 19.437507vw;
+  left: 0;
+  top: 0;
+  width: 33.437507vw;
+}
+
+.fold-detail-2 {
+  position: absolute;
+  height: 18.374995vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 32.187498vw;
+}
+
+.p-46 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.749952vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 29.062493vw;
+}
+
+.div-39 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 1.749952vw;
+  font-size: 2.874995vw;
+  color: #2b180a;
+  top: 1.749952vw;
+  width: 29.687498vw;
+}
+
+.p-47 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 1.749952vw;
+  font-size: 1.24999vw;
+  color: #6a4227;
+  top: 9.312464vw;
+  width: 29.687498vw;
+}
+
+.v2-action-4 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.187498vw;
+  left: 1.749952vw;
+  top: 15.375072vw;
+  width: 12.537507vw;
+}
+
+.p-48 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.168754vw;
+  font-size: 0.849933vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 1.062416vw;
+  width: 8.765633vw;
+}
+
+.direction-arrow-4 {
+  position: absolute;
+  height: 0.743749vw;
+  left: 10.359468vw;
+  top: 1.275092vw;
+  width: 1.009382vw;
+}
+
+.v2-action-5 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.74999vw;
+  left: 3.749952vw;
+  top: 22.874976vw;
+  width: 14.74999vw;
+}
+
+.v2-footer-2 {
+  overflow-wrap: break-word;
+  background-color: #243e42;
+  height: 14.687498vw;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-49 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.437488vw;
+  font-size: 3.437488vw;
+  color: #fbfcea;
+  top: 2.375072vw;
+  width: 35vw;
+}
+
+.a-14 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 53.437488vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 3.250048vw;
+  width: 18.74999vw;
+}
+
+.03-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 170.500005vw;
+}
+
+.a-15 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 54.624928vw;
+  font-size: 1vw;
+  color: #243e42;
+  text-align: left;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.exhibition-restored-prison-panorama-1 {
+  background-color: #243e42;
+  height: 32.812502vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.illustration-6 {
+  position: absolute;
+  height: 32.812502vw;
+  left: 40.624928vw;
+  overflow: hidden;
+  top: 0;
+  width: 59.374995vw;
+}
+
+.p-50 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #7b8176;
+  top: 2.250048vw;
+  width: 37.5vw;
+}
+
+.h1-3 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.437488vw;
+  font-size: 5.687498vw;
+  color: #fbfcea;
+  top: 7.18744vw;
+  width: 40.312502vw;
+}
+
+.div-40 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 3.749952vw;
+  font-size: 1.5vw;
+  color: #e9dfc9;
+  top: 22.937584vw;
+  width: 36.25001vw;
+}
+
+.red-thread-route-or-emphasis-6 {
+  position: absolute;
+  height: 8.696089vw;
+  left: 3.624928vw;
+  top: 19.991331vw;
+  width: 48.687498vw;
+}
+
+.div-41 {
+  position: absolute;
+  inset: -1.26% -0.22%;
+}
+
+.thread-textile-fiber-6 {
+  position: absolute;
+  height: 8.696089vw;
+  left: 3.662493vw;
+  top: 19.953959vw;
+  width: 48.687498vw;
+}
+
+.div-42 {
+  position: absolute;
+  inset: -0.22% 0;
+}
+
+.exhibition-six-restored-cell-portals-1 {
+  background-color: #d7d5c7;
+  height: 70.625005vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-51 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.562512vw;
+  font-size: 3.625005vw;
+  color: #2b180a;
+  top: 1.937584vw;
+  width: 73.125005vw;
+}
+
+.v2-cell-portal-1 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 4.125024vw;
+  overflow: hidden;
+  top: 8.18744vw;
+  width: 29.25001vw;
+}
+
+.former-prison-deep-cell-1 {
+  position: absolute;
+  background-color: #243e42;
+  height: 22.815007vw;
+  left: 2.404932vw;
+  top: 2.340012vw;
+  width: 24.439992vw;
+}
+
+.left-reveal-1 {
+  position: absolute;
+  height: 22.815007vw;
+  left: 2.404932vw;
+  top: 2.340012vw;
+  width: 2.535003vw;
+}
+
+.div-43 {
+  position: absolute;
+  inset: -0.27% -1.28% -0.36% -1.28%;
+}
+
+.right-reveal-1 {
+  position: absolute;
+  height: 22.815007vw;
+  left: 24.245039vw;
+  top: 2.340012vw;
+  width: 2.6vw;
+}
+
+.div-44 {
+  position: absolute;
+  inset: -0.27% -1.25% -0.36% -1.25%;
+}
+
+.floor-perspective-1 {
+  position: absolute;
+  height: 2.729994vw;
+  left: 2.404932vw;
+  top: 22.424966vw;
+  width: 24.439992vw;
+}
+
+.div-45 {
+  position: absolute;
+  inset: -1.19% -0.31% -1.19% -0.3%;
+}
+
+.plaster-cracks-1 {
+  position: absolute;
+  height: 25.35001vw;
+  left: 0.389906vw;
+  top: 0;
+  width: 27.690002vw;
+}
+
+.div-46 {
+  position: absolute;
+  inset: -0.17% -0.15%;
+}
+
+.p-52 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 5.199961vw;
+  font-style: normal;
+  opacity: 0.76;
+  font-size: 0.780004vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 4.030052vw;
+  width: 16.9vw;
+}
+
+.p-53 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 5.265074vw;
+  font-size: 2.729917vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 8.189944vw;
+  width: 18.2vw;
+}
+
+.personal-dossier-layered-leaf-4 {
+  position: absolute;
+  height: 5.2vw;
+  left: 6.500096vw;
+  top: 15.989983vw;
+  width: 16.054999vw;
+}
+
+.folder-back-3 {
+  position: absolute;
+  height: 6.890002vw;
+  left: -0.455018vw;
+  top: -1.169909vw;
+  width: 16.9vw;
+}
+
+.div-47 {
+  position: absolute;
+  inset: -0.47% -0.19%;
+}
+
+.offset-sheet-3 {
+  position: absolute;
+  height: 5.394991vw;
+  left: 0.455018vw;
+  top: 0;
+  width: 15.990002vw;
+}
+
+.div-48 {
+  position: absolute;
+  inset: -0.61% -0.21% -0.62% -0.21%;
+}
+
+.document-paper-3 {
+  position: absolute;
+  height: 5.2vw;
+  left: 0;
+  top: 0;
+  width: 16.054999vw;
+}
+
+.div-49 {
+  position: absolute;
+  inset: -0.62% -0.2%;
+}
+
+.fold-detail-3 {
+  position: absolute;
+  height: 4.094991vw;
+  left: 1.299942vw;
+  top: 0;
+  width: 14.754999vw;
+}
+
+.div-50 {
+  position: absolute;
+  inset: -0.56% -0.15%;
+}
+
+.p-54 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.169909vw;
+  font-style: normal;
+  font-size: 0.649971vw;
+  color: #6a4227;
+  text-align: left;
+  top: 1.040069vw;
+  width: 14.039992vw;
+}
+
+.p-55 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.169909vw;
+  font-size: 0.910037vw;
+  color: #2b180a;
+  text-align: left;
+  top: 2.729917vw;
+  width: 13.845001vw;
+}
+
+.block-3 {
+  position: absolute;
+  height: 27.3vw;
+  left: 0;
+  top: 0;
+  width: 29.25001vw;
+}
+
+.steel-bar-0-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 2.729917vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-0-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 2.79503vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.steel-bar-1-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 6.045078vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-1-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 6.109998vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.steel-bar-2-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 9.360046vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-2-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 9.424966vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.steel-bar-3-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 12.675014vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-3-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 12.739935vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.steel-bar-4-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 15.989983vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-4-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 16.055095vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.steel-bar-5-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 19.304951vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-5-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 19.370064vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.steel-bar-6-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 22.619919vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-6-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 22.685032vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.steel-bar-7-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 22.945001vw;
+  left: 25.93508vw;
+  top: 2.275092vw;
+  width: 0.454999vw;
+}
+
+.bar-glint-7-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 22.945001vw;
+  left: 26vw;
+  opacity: 0.5;
+  top: 2.275092vw;
+  width: 0.097496vw;
+}
+
+.top-rail-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 0.454999vw;
+  left: 2.145059vw;
+  top: 3.769987vw;
+  width: 25.35001vw;
+}
+
+.cross-rail-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 0.454999vw;
+  left: 2.145059vw;
+  top: 15.079946vw;
+  width: 25.35001vw;
+}
+
+.bottom-rail-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 0.454999vw;
+  left: 2.145059vw;
+  top: 24.439992vw;
+  width: 25.35001vw;
+}
+
+.latch-1 {
+  position: absolute;
+  background-color: #d7d5c7;
+  height: 0.974995vw;
+  left: 25.219996vw;
+  top: 13.06492vw;
+  width: 1.560008vw;
+}
+
+.p-56 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.104989vw;
+  font-style: normal;
+  font-size: 0.780004vw;
+  color: #6a4227;
+  text-align: left;
+  top: 25.544982vw;
+  width: 6.5vw;
+}
+
+.v2-cell-portal-2 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 35.937584vw;
+  overflow: hidden;
+  top: 8.18744vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-3 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 67.749952vw;
+  overflow: hidden;
+  top: 8.18744vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-4 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 4.125024vw;
+  overflow: hidden;
+  top: 37.81256vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-5 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 35.937584vw;
+  overflow: hidden;
+  top: 37.81256vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-6 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 67.749952vw;
+  overflow: hidden;
+  top: 37.81256vw;
+  width: 29.25001vw;
+}
+
+.p-57 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.81256vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #6a4227;
+  top: 67.500096vw;
+  width: 84.374995vw;
+}
+
+.exhibit-one-personal-dossier-in-detail-1 {
+  background-color: #d7d5c7;
+  height: 30.937507vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.illustration-7 {
+  position: absolute;
+  height: 26vw;
+  left: 3.874976vw;
+  overflow: hidden;
+  top: 2.437488vw;
+  width: 22.5vw;
+}
+
+.personal-dossier-layered-leaf-5 {
+  position: absolute;
+  height: 23.687498vw;
+  left: 30.18744vw;
+  top: 3.375072vw;
+  width: 65.5vw;
+}
+
+.folder-back-4 {
+  position: absolute;
+  height: 25.312502vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 66.312502vw;
+}
+
+.offset-sheet-4 {
+  position: absolute;
+  height: 23.874995vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 65.437507vw;
+}
+
+.div-51 {
+  position: absolute;
+  inset: -0.13% 0;
+}
+
+.document-paper-4 {
+  position: absolute;
+  height: 23.687498vw;
+  left: 0;
+  top: 0;
+  width: 65.5vw;
+}
+
+.fold-detail-4 {
+  position: absolute;
+  height: 22.625005vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 64.25001vw;
+}
+
+.p-58 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.874976vw;
+  font-style: normal;
+  font-size: 0.687498vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 61.25001vw;
+}
+
+.p-59 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 2vw;
+  font-size: 3.687498vw;
+  color: #2b180a;
+  top: 2.687536vw;
+  width: 60.5vw;
+}
+
+.p-60 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 2vw;
+  font-size: 1.625005vw;
+  color: #6a4227;
+  top: 8.687536vw;
+  width: 59.874995vw;
+}
+
+.v1-object-rings-2 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 9.625005vw;
+  left: 1.749952vw;
+  top: 12.062416vw;
+  width: 14vw;
+}
+
+.paper-outline-2 {
+  position: absolute;
+  height: 9.493758vw;
+  left: 0.087459vw;
+  top: 0;
+  width: 13.781256vw;
+}
+
+.ring-first-2 {
+  position: absolute;
+  height: 3.91387vw;
+  left: 4.306299vw;
+  top: 3.106338vw;
+  width: 3.520073vw;
+}
+
+.ring-second-2 {
+  position: absolute;
+  height: 4.245097vw;
+  left: 6.416875vw;
+  top: 2.50472vw;
+  width: 3.673955vw;
+}
+
+.thread-2 {
+  position: absolute;
+  height: 2.311886vw;
+  left: -0.874976vw;
+  top: 5.468696vw;
+  width: 15.662493vw;
+}
+
+.p-61 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 0.831246vw;
+  font-style: normal;
+  font-size: 0.350029vw;
+  color: #6a4227;
+  top: 8.618763vw;
+  width: 12.425005vw;
+}
+
+.v1-object-letter-1 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 9.625005vw;
+  left: 21.81256vw;
+  top: 12.062416vw;
+  width: 14vw;
+}
+
+.letter-paper-1 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 6.825005vw;
+  left: 2.493739vw;
+  top: 1.312464vw;
+  width: 9.274995vw;
+}
+
+.div-52 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 3.106338vw;
+  font-size: 0.700058vw;
+  color: #6a4227;
+  top: 1.837411vw;
+  width: 8.05001vw;
+}
+
+.p-62 {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.p-63 {
+  line-height: 1.5;
+}
+
+.underline-1 {
+  position: absolute;
+  height: 0.087498vw;
+  left: 3.193797vw;
+  top: 7.437488vw;
+  width: 6.693758vw;
+}
+
+.div-53 {
+  position: absolute;
+  inset: -32.41% 0 -32.35% 0;
+}
+
+.v1-object-flower-1 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 9.625005vw;
+  left: 41.874976vw;
+  top: 12.062416vw;
+  width: 14vw;
+}
+
+.pressed-stem-2 {
+  position: absolute;
+  height: 3.762493vw;
+  left: 6.429975vw;
+  top: 4.025043vw;
+  width: 0.643171vw;
+}
+
+.petal-red-2 {
+  position: absolute;
+  height: 3.2136vw;
+  left: 5.277788vw;
+  top: 1.65575vw;
+  width: 3.738008vw;
+}
+
+.leaf-2 {
+  position: absolute;
+  height: 1.582412vw;
+  left: 5.368137vw;
+  top: 5.767675vw;
+  width: 2.571624vw;
+}
+
+.red-thread-route-or-emphasis-7 {
+  position: absolute;
+  height: 8.741938vw;
+  left: 1.437488vw;
+  top: 20.838567vw;
+  width: 38vw;
+}
+
+.div-54 {
+  position: absolute;
+  inset: -1.07% -0.25%;
+}
+
+.thread-textile-fiber-7 {
+  position: absolute;
+  height: 8.741938vw;
+  left: 1.475053vw;
+  top: 20.801002vw;
+  width: 38vw;
+}
+
+.div-55 {
+  position: absolute;
+  inset: -0.21% 0;
+}
+
+.invitation-2 {
+  background-color: #243e42;
+  height: 14.687498vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-64 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.499904vw;
+  font-size: 3.562493vw;
+  color: #fbfcea;
+  top: 2.375072vw;
+  width: 63.125005vw;
+}
+
+.p-65 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.187498vw;
+  color: #e9dfc9;
+  top: 9.687536vw;
+  width: 58.74999vw;
+}
+
+.04-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 179.249994vw;
+}
+
+.entrance-1 {
+  background-color: #7d9091;
+  height: 21.25001vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-66 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 1.874976vw;
+  width: 56.25001vw;
+}
+
+.h1-4 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1;
+  left: 3.437488vw;
+  font-size: 5.374995vw;
+  color: #2b180a;
+  top: 4.687536vw;
+  width: 78.125005vw;
+}
+
+.p-67 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.374995vw;
+  color: #2b180a;
+  top: 16.749952vw;
+  width: 75vw;
+}
+
+.v1-document-folder-2 {
+  position: absolute;
+  height: 10.44999vw;
+  left: 77.499904vw;
+  top: 11.500096vw;
+  width: 15.812502vw;
+}
+
+.shadow-2 {
+  position: absolute;
+  height: 10.44999vw;
+  left: 0;
+  top: 0;
+  width: 15.812502vw;
+}
+
+.folder-tab-2 {
+  position: absolute;
+  height: 9.762493vw;
+  left: 0;
+  top: -0.618763vw;
+  width: 15.812502vw;
+}
+
+.p-68 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.3;
+  left: 1.375072vw;
+  font-style: normal;
+  font-size: 1.031208vw;
+  color: #2b180a;
+  top: 2.612406vw;
+  width: 13.062493vw;
+}
+
+.p-69 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.3;
+  left: 1.375072vw;
+  font-style: normal;
+  font-size: 0.481217vw;
+  color: #6a4227;
+  top: 4.709305vw;
+  width: 13.062493vw;
+}
+
+.record-field-0-2 {
+  position: absolute;
+  height: 0;
+  left: 1.375072vw;
+  top: 6.359468vw;
+  width: 12.718744vw;
+}
+
+.div-56 {
+  position: absolute;
+  inset: -0.017145vw 0;
+}
+
+.record-field-1-2 {
+  position: absolute;
+  height: 0;
+  left: 1.375072vw;
+  top: 7.596802vw;
+  width: 12.718744vw;
+}
+
+.record-field-2-2 {
+  position: absolute;
+  height: 0;
+  left: 1.375072vw;
+  top: 8.834329vw;
+  width: 12.718744vw;
+}
+
+.block-4 {
+  position: absolute;
+  height: 2.437507vw;
+  left: 3.81256vw;
+  top: 11.18744vw;
+  width: 33.687498vw;
+}
+
+.archive-emotional-index-1 {
+  background-color: #d7d5c7;
+  height: 6.125005vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.a-16 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.937584vw;
+  font-size: 1.125005vw;
+  color: #a3292b;
+  text-align: left;
+  top: 2.18744vw;
+  width: 13.437507vw;
+}
+
+.a-17 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 19.562512vw;
+  font-size: 1.125005vw;
+  color: #6a4227;
+  text-align: left;
+  top: 2.18744vw;
+  width: 13.437507vw;
+}
+
+.a-18 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 35.18744vw;
+  font-size: 1.125005vw;
+  color: #6a4227;
+  text-align: left;
+  top: 2.18744vw;
+  width: 13.437507vw;
+}
+
+.a-19 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 50.81256vw;
+  font-size: 1.125005vw;
+  color: #6a4227;
+  text-align: left;
+  top: 2.18744vw;
+  width: 13.437507vw;
+}
+
+.a-20 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 66.437488vw;
+  font-size: 1.125005vw;
+  color: #6a4227;
+  text-align: left;
+  top: 2.18744vw;
+  width: 13.437507vw;
+}
+
+.a-21 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 82.062416vw;
+  font-size: 1.125005vw;
+  color: #6a4227;
+  text-align: left;
+  top: 2.18744vw;
+  width: 13.437507vw;
+}
+
+.red-thread-route-or-emphasis-8 {
+  position: absolute;
+  height: 3.031767vw;
+  left: 3.146407vw;
+  top: 1.451551vw;
+  width: 12.525275vw;
+}
+
+.div-57 {
+  position: absolute;
+  inset: -2.58% -0.62%;
+}
+
+.thread-textile-fiber-8 {
+  position: absolute;
+  height: 3.031767vw;
+  left: 3.183972vw;
+  top: 1.414178vw;
+  width: 12.525275vw;
+}
+
+.div-58 {
+  position: absolute;
+  inset: -0.62% -0.15%;
+}
+
+.archive-nine-concise-personal-dossiers-1 {
+  background-color: #7b8176;
+  height: 115.625005vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.v2-human-dossier-4 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 4.437488vw;
+  top: 3.375072vw;
+  width: 26.137507vw;
+}
+
+.personal-dossier-layered-leaf-6 {
+  position: absolute;
+  height: 32.512502vw;
+  left: 0;
+  top: 0;
+  width: 26.137507vw;
+}
+
+.p-70 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.083799vw;
+  font-style: normal;
+  font-size: 0.637449vw;
+  color: #2b180a;
+  text-align: left;
+  top: -0.95627vw;
+  width: 9.562493vw;
+}
+
+.v1-object-rings-3 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 15.427509vw;
+  left: 1.785013vw;
+  top: 1.785013vw;
+  width: 22.439992vw;
+}
+
+.paper-outline-3 {
+  position: absolute;
+  height: 15.217126vw;
+  left: 0.140243vw;
+  top: 0;
+  width: 22.089366vw;
+}
+
+.ring-first-3 {
+  position: absolute;
+  height: 6.273358vw;
+  left: 6.902331vw;
+  top: 4.978809vw;
+  width: 5.642188vw;
+}
+
+.ring-second-3 {
+  position: absolute;
+  height: 6.804296vw;
+  left: 10.285301vw;
+  top: 4.014641vw;
+  width: 5.888827vw;
+}
+
+.thread-3 {
+  position: absolute;
+  height: 3.705644vw;
+  left: -1.402427vw;
+  top: 8.765556vw;
+  width: 25.104758vw;
+}
+
+.p-71 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.332306vw;
+  font-style: normal;
+  font-size: 0.560971vw;
+  color: #6a4227;
+  text-align: left;
+  top: 13.814679vw;
+  width: 19.915508vw;
+}
+
+.p-72 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.785013vw;
+  font-style: normal;
+  font-size: 0.764978vw;
+  color: #a3292b;
+  text-align: left;
+  top: 18.869967vw;
+  width: 22.694991vw;
+}
+
+.div-59 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 1.785013vw;
+  font-size: 2.486226vw;
+  color: #2b180a;
+  text-align: left;
+  top: 20.782508vw;
+  width: 22.694991vw;
+}
+
+.div-60 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 1.785013vw;
+  font-size: 1.083799vw;
+  color: #6a4227;
+  text-align: left;
+  top: 27.34868vw;
+  width: 22.694991vw;
+}
+
+.v2-human-dossier-5 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 36.125024vw;
+  top: 3.375072vw;
+  width: 26.137507vw;
+}
+
+.letter-paper-2 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 10.939491vw;
+  left: 3.99711vw;
+  top: 2.103834vw;
+  width: 14.8665vw;
+}
+
+.div-61 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 4.978809vw;
+  font-size: 1.121942vw;
+  color: #6a4227;
+  text-align: left;
+  top: 2.94529vw;
+  width: 12.903005vw;
+}
+
+.underline-2 {
+  position: absolute;
+  height: 0.140243vw;
+  left: 5.119052vw;
+  top: 11.92121vw;
+  width: 10.729127vw;
+}
+
+.v2-human-dossier-6 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 67.81256vw;
+  top: 3.375072vw;
+  width: 26.137507vw;
+}
+
+.wedding-ribbon-2 {
+  position: absolute;
+  height: 9.424562vw;
+  left: 4.11308vw;
+  top: 4.249856vw;
+  width: 14.421711vw;
+}
+
+.loose-end-2 {
+  position: absolute;
+  height: 3.754729vw;
+  left: -0.560971vw;
+  top: 10.305529vw;
+  width: 24.05288vw;
+}
+
+.v2-human-dossier-7 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 4.437488vw;
+  top: 40.874976vw;
+  width: 26.137507vw;
+}
+
+.pressed-stem-3 {
+  position: absolute;
+  height: 6.030746vw;
+  left: 10.306492vw;
+  top: 6.451551vw;
+  width: 1.0309vw;
+}
+
+.petal-red-3 {
+  position: absolute;
+  height: 5.150934vw;
+  left: 8.459449vw;
+  top: 2.653824vw;
+  width: 5.991485vw;
+}
+
+.leaf-3 {
+  position: absolute;
+  height: 2.53639vw;
+  left: 8.604508vw;
+  top: 9.244654vw;
+  width: 4.121942vw;
+}
+
+.v2-human-dossier-8 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 36.125024vw;
+  top: 40.874976vw;
+  width: 26.137507vw;
+}
+
+.v2-human-dossier-9 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 67.81256vw;
+  top: 40.874976vw;
+  width: 26.137507vw;
+}
+
+.v2-human-dossier-10 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 4.437488vw;
+  top: 78.375072vw;
+  width: 26.137507vw;
+}
+
+.v2-human-dossier-11 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 36.125024vw;
+  top: 78.375072vw;
+  width: 26.137507vw;
+}
+
+.v2-human-dossier-12 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  height: 32.512502vw;
+  left: 67.81256vw;
+  top: 78.375072vw;
+  width: 26.137507vw;
+}
+
+.red-thread-route-or-emphasis-9 {
+  position: absolute;
+  height: 111.437507vw;
+  left: 1.06492vw;
+  top: 1.499904vw;
+  width: 10.060143vw;
+}
+
+.div-62 {
+  position: absolute;
+  inset: 0 -0.93%;
+}
+
+.thread-textile-fiber-9 {
+  position: absolute;
+  height: 111.437507vw;
+  left: 1.102292vw;
+  top: 1.462531vw;
+  width: 10.060143vw;
+}
+
+.div-63 {
+  position: absolute;
+  inset: 0 -0.19%;
+}
+
+.archive-humans-only-contribution-1 {
+  background-color: #d7d5c7;
+  height: 14.812502vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-73 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.437488vw;
+  font-size: 3.874995vw;
+  color: #2b180a;
+  top: 2.749952vw;
+  width: 68.75001vw;
+}
+
+.p-74 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.374995vw;
+  color: #6a4227;
+  top: 9.437488vw;
+  width: 61.25001vw;
+}
+
+.v2-action-6 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.74999vw;
+  left: 77.562512vw;
+  top: 5.81256vw;
+  width: 14.74999vw;
+}
+
+.05-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 118.437504vw;
+}
+
+.entrance-2 {
+  background-color: #243e42;
+  height: 22vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-75 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #e9dfc9;
+  top: 1.874976vw;
+  width: 56.25001vw;
+}
+
+.h1-5 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1;
+  left: 3.437488vw;
+  font-size: 5.374995vw;
+  color: #fbfcea;
+  top: 4.687536vw;
+  width: 78.125005vw;
+}
+
+.p-76 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.374995vw;
+  color: #e9dfc9;
+  top: 17.499904vw;
+  width: 75vw;
+}
+
+.p-77 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 65.624928vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #e9dfc9;
+  top: 18.18744vw;
+  width: 31.25001vw;
+}
+
+.block-5 {
+  position: absolute;
+  height: 2.937507vw;
+  left: 3.749952vw;
+  top: 11.125024vw;
+  width: 35vw;
+}
+
+.admission-three-classes-1 {
+  background-color: #d7d5c7;
+  height: 42.125005vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.v2-admission-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 36.112502vw;
+  left: 3.81256vw;
+  top: 4.062416vw;
+  width: 29.157503vw;
+}
+
+.personal-dossier-layered-leaf-7 {
+  position: absolute;
+  height: 32.501252vw;
+  left: 1.203814vw;
+  top: 2.273743vw;
+  width: 26.75001vw;
+}
+
+.div-64 {
+  position: absolute;
+  inset: -3.81% -1.63% -1.75% -1.88%;
+}
+
+.p-78 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 2.541322vw;
+  font-style: normal;
+  font-size: 0.735696vw;
+  color: #243e42;
+  top: 1.270661vw;
+  width: 22.737507vw;
+}
+
+.p-79 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 2.541322vw;
+  font-size: 2.875554vw;
+  color: #2b180a;
+  top: 5.015604vw;
+  width: 23.941244vw;
+}
+
+.img-4 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1.1;
+  left: 2.777593vw;
+  font-size: 9.028126vw;
+  color: #243e42;
+  top: 11.423917vw;
+  width: 8.418416vw;
+  height: 7.397419vw;
+}
+
+.p-80 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 13.040647vw;
+  font-size: 1.939318vw;
+  color: #243e42;
+  top: 14.846272vw;
+  width: 13.374995vw;
+}
+
+.div-65 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 2.541322vw;
+  font-size: 1.337507vw;
+  color: #2b180a;
+  top: 22.403198vw;
+  width: 23.941244vw;
+}
+
+.v2-action-7 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 4.012502vw;
+  left: 2.541322vw;
+  top: 29.558659vw;
+  width: 15.782508vw;
+}
+
+.p-81 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.4712vw;
+  font-size: 1.069929vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 1.337507vw;
+  width: 11.034367vw;
+}
+
+.direction-arrow-5 {
+  position: absolute;
+  height: 0.936255vw;
+  left: 13.040647vw;
+  top: 1.605086vw;
+  width: 1.270622vw;
+}
+
+.red-thread-route-or-emphasis-10 {
+  position: absolute;
+  height: 11.157561vw;
+  left: 1.923329vw;
+  top: 9.28665vw;
+  width: 21.834637vw;
+}
+
+.div-66 {
+  position: absolute;
+  inset: -0.75% -0.38%;
+}
+
+.thread-textile-fiber-10 {
+  position: absolute;
+  height: 11.157561vw;
+  left: 1.963398vw;
+  top: 9.246581vw;
+  width: 21.834637vw;
+}
+
+.div-67 {
+  position: absolute;
+  inset: -0.18% 0;
+}
+
+.v2-admission-2 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 36.112502vw;
+  left: 35.375072vw;
+  top: 4.062416vw;
+  width: 29.157503vw;
+}
+
+.img-5 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1.1;
+  left: 2.696322vw;
+  font-size: 9.028126vw;
+  color: #243e42;
+  top: 11.423917vw;
+  width: 8.476209vw;
+  height: 7.397419vw;
+}
+
+.red-thread-route-or-emphasis-11 {
+  position: absolute;
+  height: 11.804855vw;
+  left: 0.979002vw;
+  top: 8.725872vw;
+  width: 23.384608vw;
+}
+
+.div-68 {
+  position: absolute;
+  inset: -0.71% -0.36%;
+}
+
+.thread-textile-fiber-11 {
+  position: absolute;
+  height: 11.804855vw;
+  left: 1.019071vw;
+  top: 8.68561vw;
+  width: 23.384608vw;
+}
+
+.div-69 {
+  position: absolute;
+  inset: -0.17% 0;
+}
+
+.v2-admission-3 {
+  position: absolute;
+  background-color: #9a5940;
+  height: 36.112502vw;
+  left: 66.937584vw;
+  top: 4.062416vw;
+  width: 29.157503vw;
+}
+
+.p-82 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 2.541322vw;
+  font-style: normal;
+  font-size: 0.735696vw;
+  color: #fbfcea;
+  top: 1.270661vw;
+  width: 22.737507vw;
+}
+
+.p-83 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 2.541322vw;
+  font-size: 2.875554vw;
+  color: #fbfcea;
+  top: 5.015604vw;
+  width: 23.941244vw;
+}
+
+.img-6 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1.1;
+  left: 2.903976vw;
+  font-size: 9.028126vw;
+  color: #fbfcea;
+  top: 11.423922vw;
+  width: 8.437681vw;
+  height: 7.493739vw;
+}
+
+.p-84 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 13.040647vw;
+  font-size: 1.939318vw;
+  color: #fbfcea;
+  top: 14.846272vw;
+  width: 13.374995vw;
+}
+
+.div-70 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 2.541322vw;
+  font-size: 1.337507vw;
+  color: #fbfcea;
+  top: 22.403198vw;
+  width: 23.941244vw;
+}
+
+.red-thread-route-or-emphasis-12 {
+  position: absolute;
+  height: 9.295627vw;
+  left: 2.006165vw;
+  top: 11.435562vw;
+  width: 24.743749vw;
+}
+
+.div-71 {
+  position: absolute;
+  inset: -0.9% -0.34%;
+}
+
+.thread-textile-fiber-12 {
+  position: absolute;
+  height: 9.295627vw;
+  left: 2.046427vw;
+  top: 11.395492vw;
+  width: 24.743749vw;
+}
+
+.admission-visitor-personal-file-1 {
+  background-color: #243e42;
+  height: 32.874995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-85 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.499904vw;
+  font-size: 4.24999vw;
+  color: #fbfcea;
+  top: 2.062416vw;
+  width: 87.5vw;
+}
+
+.personal-dossier-layered-leaf-8 {
+  position: absolute;
+  height: 19.687498vw;
+  left: 3.687536vw;
+  top: 10.18744vw;
+  width: 92.5vw;
+}
+
+.folder-back-5 {
+  position: absolute;
+  height: 21.312502vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 93.312502vw;
+}
+
+.offset-sheet-5 {
+  position: absolute;
+  height: 19.874995vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 92.437507vw;
+}
+
+.document-paper-5 {
+  position: absolute;
+  height: 19.687498vw;
+  left: 0;
+  top: 0;
+  width: 92.5vw;
+}
+
+.fold-detail-5 {
+  position: absolute;
+  height: 18.625005vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 91.25001vw;
+}
+
+.p-86 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.874976vw;
+  font-style: normal;
+  font-size: 0.687498vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 88.125005vw;
+}
+
+.p-87 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 2vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #6a4227;
+  top: 1.937584vw;
+  width: 37.5vw;
+}
+
+.p-88 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 2vw;
+  font-size: 3.062493vw;
+  color: #a3292b;
+  top: 4.312464vw;
+  width: 40.625005vw;
+}
+
+.p-89 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 50vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #6a4227;
+  top: 1.937584vw;
+  width: 37.5vw;
+}
+
+.arrival-slot-11-1 {
+  position: absolute;
+  background-color: #e9dfc9;
+  display: block;
+  cursor: pointer;
+  height: 3.562493vw;
+  left: 50vw;
+  top: 4.375072vw;
+  width: 10.125005vw;
+}
+
+.p-90 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.18744vw;
+  font-style: normal;
+  font-size: 1vw;
+  color: #2b180a;
+  text-align: left;
+  top: 1.125024vw;
+  width: 8.437507vw;
+}
+
+.arrival-slot-13-1 {
+  position: absolute;
+  background-color: #e9dfc9;
+  display: block;
+  cursor: pointer;
+  height: 3.562493vw;
+  left: 62.687536vw;
+  top: 4.375072vw;
+  width: 10.125005vw;
+}
+
+.selected-slot-1 {
+  position: absolute;
+  background-color: #a3292b;
+  height: 3.562493vw;
+  left: 0;
+  top: 0;
+  width: 10.125005vw;
+}
+
+.p-91 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.18744vw;
+  font-style: normal;
+  font-size: 1vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 1.125024vw;
+  width: 8.437507vw;
+}
+
+.arrival-slot-15-1 {
+  position: absolute;
+  background-color: #e9dfc9;
+  display: block;
+  cursor: pointer;
+  height: 3.562493vw;
+  left: 75.375072vw;
+  top: 4.375072vw;
+  width: 10.125005vw;
+}
+
+.p-92 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 2vw;
+  font-size: 1.562493vw;
+  color: #2b180a;
+  top: 10.312464vw;
+  width: 36.874995vw;
+}
+
+.p-93 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 50vw;
+  font-size: 1.24999vw;
+  color: #6a4227;
+  top: 10.250048vw;
+  width: 40.625005vw;
+}
+
+.v2-action-8 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.74999vw;
+  left: 2vw;
+  top: 14.749952vw;
+  width: 14.74999vw;
+}
+
+.red-thread-route-or-emphasis-13 {
+  position: absolute;
+  height: 1.585937vw;
+  left: 1.250048vw;
+  top: 17.23849vw;
+  width: 17.687498vw;
+}
+
+.div-72 {
+  position: absolute;
+  inset: -5.52% -0.49% -5.51% -0.49%;
+}
+
+.thread-textile-fiber-13 {
+  position: absolute;
+  height: 1.585937vw;
+  left: 1.287421vw;
+  top: 17.201117vw;
+  width: 17.687498vw;
+}
+
+.div-73 {
+  position: absolute;
+  inset: -1.18% -0.11%;
+}
+
+.06-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 196.437513vw;
+}
+
+.cafe-after-the-ceremony-in-a-former-cell-bloc-1 {
+  background-color: #6a4227;
+  height: 26.125005vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-94 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #e9dfc9;
+  top: 2vw;
+  width: 53.75001vw;
+}
+
+.h1-6 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1;
+  left: 3.437488vw;
+  font-size: 7.437507vw;
+  color: #fbfcea;
+  top: 5.437488vw;
+  width: 87.5vw;
+}
+
+.p-95 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.74999vw;
+  color: #e9dfc9;
+  top: 15.562512vw;
+  width: 70.625005vw;
+}
+
+.a-22 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 3.749952vw;
+  font-size: 1.125005vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 20.687536vw;
+  width: 71.24999vw;
+}
+
+.red-thread-route-or-emphasis-14 {
+  position: absolute;
+  height: 4.811192vw;
+  left: 4vw;
+  top: 13.063764vw;
+  width: 90.874995vw;
+}
+
+.div-74 {
+  position: absolute;
+  inset: -2.34% -0.12%;
+}
+
+.thread-textile-fiber-14 {
+  position: absolute;
+  height: 4.811192vw;
+  left: 4.037565vw;
+  top: 13.026392vw;
+  width: 90.874995vw;
+}
+
+.div-75 {
+  position: absolute;
+  inset: -0.39% 0;
+}
+
+.cafe-earth-memories-collage-1 {
+  background-color: #7d9091;
+  height: 27.374995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.illustration-8 {
+  position: absolute;
+  height: 22vw;
+  left: 3.81256vw;
+  overflow: hidden;
+  top: 2.18744vw;
+  width: 92.374995vw;
+}
+
+.p-96 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.624928vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #243e42;
+  top: 19.624928vw;
+  width: 29.291659vw;
+}
+
+.p-97 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 31.666731vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #243e42;
+  top: 19.624928vw;
+  width: 29.291659vw;
+}
+
+.p-98 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 61.708341vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #243e42;
+  top: 19.624928vw;
+  width: 29.291659vw;
+}
+
+.p-99 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.81256vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 24.937584vw;
+  width: 89.374995vw;
+}
+
+.cafe-menu-1 {
+  background-color: #d7d5c7;
+  height: 26.874995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-100 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.499904vw;
+  font-size: 3.374995vw;
+  color: #2b180a;
+  top: 1.562512vw;
+  width: 88.75001vw;
+}
+
+.v2-cafe-recipe-1 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 9.652495vw;
+  left: 3.937584vw;
+  top: 6.937584vw;
+  width: 43.874995vw;
+}
+
+.p-101 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 1.619919vw;
+  font-size: 2.294934vw;
+  color: #2b180a;
+  top: 1.214987vw;
+  width: 33.75001vw;
+}
+
+.p-102 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 36.247544vw;
+  font-style: normal;
+  font-size: 0.87748vw;
+  color: #a3292b;
+  top: 1.687536vw;
+  width: 6.75001vw;
+}
+
+.p-103 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 1.619919vw;
+  font-size: 1.147563vw;
+  color: #6a4227;
+  top: 5.805047vw;
+  width: 40.162493vw;
+}
+
+.recipe-rule-1 {
+  position: absolute;
+  height: 0;
+  left: 1.619919vw;
+  top: 8.774995vw;
+  width: 40.5vw;
+}
+
+.div-76 {
+  position: absolute;
+  inset: -0.023695vw 0;
+}
+
+.block-6 {
+  position: absolute;
+  height: 4.725005vw;
+  left: 34.964939vw;
+  top: 0.135041vw;
+  width: 8.774995vw;
+}
+
+.v2-cafe-recipe-2 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 9.652495vw;
+  left: 51.749952vw;
+  top: 6.937584vw;
+  width: 43.874995vw;
+}
+
+.v2-cafe-recipe-3 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 9.652495vw;
+  left: 3.937584vw;
+  top: 16.749952vw;
+  width: 43.874995vw;
+}
+
+.v2-cafe-recipe-4 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 9.652495vw;
+  left: 51.749952vw;
+  top: 16.749952vw;
+  width: 43.874995vw;
+}
+
+.block-7 {
+  position: absolute;
+  height: 2.5vw;
+  left: 3.749952vw;
+  top: 4.562512vw;
+  width: 23.125005vw;
+}
+
+.cafe-menu-2 {
+  background-color: #7d9091;
+  height: 26.874995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.block-8 {
+  position: absolute;
+  height: 2.5vw;
+  left: 3.749952vw;
+  top: 4.562512vw;
+  width: 38.74999vw;
+}
+
+.block-9 {
+  position: absolute;
+  height: 2vw;
+  left: 3.749952vw;
+  top: 4.562512vw;
+  width: 32.187498vw;
+}
+
+.cafe-menu-3 {
+  background-color: #7b8176;
+  height: 26.874995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.block-10 {
+  position: absolute;
+  height: 2.5vw;
+  left: 3.749952vw;
+  top: 4.562512vw;
+  width: 25.562493vw;
+}
+
+.cafe-dietary-translation-1 {
+  overflow-wrap: break-word;
+  background-color: #fbfcea;
+  height: 14vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-104 {
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.499904vw;
+  font-size: 3.562493vw;
+  color: #2b180a;
+  top: 2.81256vw;
+  width: 84.374995vw;
+}
+
+.p-105 {
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.374995vw;
+  color: #6a4227;
+  top: 8.562512vw;
+  width: 84.374995vw;
+}
+
+.07-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 95.687501vw;
+}
+
+.entrance-3 {
+  background-color: #d7d5c7;
+  height: 20.625005vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-106 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #6a4227;
+  top: 1.874976vw;
+  width: 56.25001vw;
+}
+
+.p-107 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.374995vw;
+  color: #6a4227;
+  top: 16.125024vw;
+  width: 75vw;
+}
+
+.block-11 {
+  position: absolute;
+  height: 2.5vw;
+  left: 3.687536vw;
+  top: 11.18744vw;
+  width: 36.437507vw;
+}
+
+.human-story-personal-dossier-form-1 {
+  background-color: #7d9091;
+  height: 53.625005vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.personal-dossier-layered-leaf-9 {
+  position: absolute;
+  height: 43.374995vw;
+  left: 3.874976vw;
+  top: 4.562512vw;
+  width: 51.125005vw;
+}
+
+.folder-back-6 {
+  position: absolute;
+  height: 45vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 51.937507vw;
+}
+
+.offset-sheet-6 {
+  position: absolute;
+  height: 43.562493vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 51.062493vw;
+}
+
+.document-paper-6 {
+  position: absolute;
+  height: 43.374995vw;
+  left: 0;
+  top: 0;
+  width: 51.125005vw;
+}
+
+.fold-detail-6 {
+  position: absolute;
+  height: 42.312502vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 49.874995vw;
+}
+
+.p-108 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.749952vw;
+  font-style: normal;
+  font-size: 0.687498vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 46.24999vw;
+}
+
+.dossier-field-1 {
+  position: absolute;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 0.74999vw;
+  align-items: flex-start;
+  left: 2vw;
+  overflow: hidden;
+  top: 2.624928vw;
+  width: 46.937507vw;
+}
+
+.label-1 {
+  overflow-wrap: break-word;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  font-style: normal;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 0.74999vw;
+  color: #6a4227;
+  width: 100%;
+}
+
+.input-1 {
+  overflow-wrap: break-word;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  position: relative;
+  flex-shrink: 0;
+  font-size: 1.437507vw;
+  color: #2b180a;
+  width: 100%;
+}
+
+.field-rule-1 {
+  background-color: #6a4227;
+  height: 0.043749vw;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.dossier-field-2 {
+  position: absolute;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 0.74999vw;
+  align-items: flex-start;
+  left: 2vw;
+  overflow: hidden;
+  top: 9.18744vw;
+  width: 46.937507vw;
+}
+
+.dossier-field-3 {
+  position: absolute;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 0.74999vw;
+  align-items: flex-start;
+  left: 2vw;
+  overflow: hidden;
+  top: 15.749952vw;
+  width: 46.937507vw;
+}
+
+.p-109 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 2vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #6a4227;
+  top: 22.81256vw;
+  width: 46.937507vw;
+}
+
+.textarea-1 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 2vw;
+  font-size: 1.437507vw;
+  color: #6a4227;
+  top: 25.687536vw;
+  width: 46.937507vw;
+  height: 11vw;
+}
+
+.story-writing-guides-1 {
+  position: absolute;
+  height: 6vw;
+  left: 2vw;
+  top: 31.937584vw;
+  width: 46.625005vw;
+}
+
+.div-77 {
+  position: absolute;
+  inset: -0.36% 0;
+}
+
+.label-2 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 2vw;
+  font-size: 1.062493vw;
+  color: #2b180a;
+  top: 39.937584vw;
+  width: 46.5vw;
+  display: flex;
+  align-items: center;
+  gap: 0.25vw;
+}
+
+.input-2 {
+  width: 0.8vw;
+  height: 0.8vw;
+  margin: 0;
+}
+
+.personal-dossier-layered-leaf-10 {
+  position: absolute;
+  height: 35.812502vw;
+  left: 59.687536vw;
+  top: 4.562512vw;
+  width: 36.062493vw;
+}
+
+.folder-back-7 {
+  position: absolute;
+  height: 37.437507vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 36.874995vw;
+}
+
+.offset-sheet-7 {
+  position: absolute;
+  left: 0.437488vw;
+  width: 36vw;
+  height: 36vw;
+  top: 0;
+}
+
+.document-paper-7 {
+  position: absolute;
+  height: 35.812502vw;
+  left: 0;
+  top: 0;
+  width: 36.062493vw;
+}
+
+.fold-detail-7 {
+  position: absolute;
+  height: 34.75001vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 34.812502vw;
+}
+
+.p-110 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.624928vw;
+  font-style: normal;
+  font-size: 0.687498vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 31.25001vw;
+}
+
+.div-78 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 1.749952vw;
+  font-size: 3.437507vw;
+  color: #2b180a;
+  top: 2.18744vw;
+  width: 31.874995vw;
+}
+
+.div-79 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 1.749952vw;
+  font-size: 1.374995vw;
+  color: #6a4227;
+  top: 11.749952vw;
+  width: 31.874995vw;
+}
+
+.v1-object-letter-2 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 10.174995vw;
+  left: 2.18744vw;
+  top: 17.562512vw;
+  width: 14.8vw;
+}
+
+.paper-outline-4 {
+  position: absolute;
+  height: 10.036255vw;
+  left: 0.092468vw;
+  top: 0;
+  width: 14.568754vw;
+}
+
+.letter-paper-3 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 7.215007vw;
+  left: 2.636294vw;
+  top: 1.387594vw;
+  width: 9.805009vw;
+}
+
+.div-80 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 3.28376vw;
+  font-size: 0.739935vw;
+  color: #6a4227;
+  top: 1.942593vw;
+  width: 8.509998vw;
+}
+
+.underline-3 {
+  position: absolute;
+  height: 0.092506vw;
+  left: 3.376228vw;
+  top: 7.862454vw;
+  width: 7.076247vw;
+}
+
+.p-111 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 0.878829vw;
+  font-style: normal;
+  font-size: 0.370064vw;
+  color: #6a4227;
+  top: 9.111347vw;
+  width: 13.135003vw;
+}
+
+.v1-object-flower-2 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 10.037507vw;
+  left: 18.062416vw;
+  top: 18vw;
+  width: 14.6vw;
+}
+
+.paper-outline-5 {
+  position: absolute;
+  height: 9.900616vw;
+  left: 0.091312vw;
+  top: 0;
+  width: 14.371874vw;
+}
+
+.pressed-stem-4 {
+  position: absolute;
+  height: 3.923753vw;
+  left: 6.705644vw;
+  top: 4.197457vw;
+  width: 0.670738vw;
+}
+
+.petal-red-4 {
+  position: absolute;
+  height: 3.35132vw;
+  left: 5.503949vw;
+  top: 1.726642vw;
+  width: 3.898208vw;
+}
+
+.leaf-4 {
+  position: absolute;
+  height: 1.650241vw;
+  left: 5.598343vw;
+  top: 6.014833vw;
+  width: 2.681834vw;
+}
+
+.p-112 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 0.866885vw;
+  font-style: normal;
+  font-size: 0.365055vw;
+  color: #6a4227;
+  top: 8.988056vw;
+  width: 12.957503vw;
+}
+
+.v2-action-9 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.74999vw;
+  left: 1.81256vw;
+  top: 30.062416vw;
+  width: 14.74999vw;
+}
+
+.v1-document-paperclip-1 {
+  position: absolute;
+  height: 3.8vw;
+  left: 92.312464vw;
+  top: 2.312464vw;
+  width: 2.137507vw;
+}
+
+.div-81 {
+  position: absolute;
+  inset: 0 -0.64% 0 0;
+}
+
+.v2-action-10 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 4.012502vw;
+  left: 59.749952vw;
+  top: 44.375072vw;
+  width: 15.782508vw;
+}
+
+.red-thread-route-or-emphasis-15 {
+  position: absolute;
+  height: 6.233597vw;
+  left: 58.605856vw;
+  top: 43.487767vw;
+  width: 18.177711vw;
+}
+
+.div-82 {
+  position: absolute;
+  inset: -1.25% -0.43%;
+}
+
+.thread-textile-fiber-15 {
+  position: absolute;
+  height: 6.233597vw;
+  left: 58.643229vw;
+  top: 43.450395vw;
+  width: 18.177711vw;
+}
+
+.div-83 {
+  position: absolute;
+  inset: -0.3% -0.1%;
+}
+
+.red-thread-route-or-emphasis-16 {
+  position: absolute;
+  height: 44.437507vw;
+  left: 56vw;
+  top: 4.624928vw;
+  width: 3.625005vw;
+}
+
+.div-84 {
+  position: absolute;
+  inset: -0.21% -2.59%;
+}
+
+.thread-textile-fiber-16 {
+  position: absolute;
+  height: 44.437507vw;
+  left: 56.037565vw;
+  top: 4.587555vw;
+  width: 3.625005vw;
+}
+
+.div-85 {
+  position: absolute;
+  inset: 0 -0.52%;
+}
+
+.p-113 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 4vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 50.687536vw;
+  width: 89.374995vw;
+}
+
+.a-23 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 74.375072vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 6.437488vw;
+  width: 18.74999vw;
+}
+
+.08-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 133.124996vw;
+}
+
+.a-24 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 65vw;
+  font-size: 1vw;
+  color: #243e42;
+  text-align: left;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.block-12 {
+  position: absolute;
+  height: 2.125005vw;
+  left: 3.749952vw;
+  top: 11.312464vw;
+  width: 45vw;
+}
+
+.restored-prison-architectural-location-photog-1 {
+  background-color: #d7d5c7;
+  height: 26.374995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.illustration-9 {
+  position: absolute;
+  height: 22.062493vw;
+  left: 3.874976vw;
+  overflow: hidden;
+  top: 1.499904vw;
+  width: 92.24999vw;
+}
+
+.p-114 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.874976vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #6a4227;
+  top: 24.500096vw;
+  width: 90vw;
+}
+
+.visitor-route-asteroid-and-prison-plan-1 {
+  background-color: #243e42;
+  height: 39.187498vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-115 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 3.437488vw;
+  font-size: 4.374995vw;
+  color: #fbfcea;
+  top: 2.81256vw;
+  width: 49.374995vw;
+}
+
+.div-86 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 3.749952vw;
+  font-size: 1.874995vw;
+  color: #fbfcea;
+  top: 11.562512vw;
+  width: 43.75001vw;
+}
+
+.v2-action-11 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.74999vw;
+  left: 3.749952vw;
+  top: 28.81256vw;
+  width: 14.74999vw;
+}
+
+.red-thread-route-or-emphasis-17 {
+  position: absolute;
+  height: 5.906839vw;
+  left: 2.556155vw;
+  top: 27.927952vw;
+  width: 17.471142vw;
+}
+
+.div-87 {
+  position: absolute;
+  inset: -1.32% -0.45%;
+}
+
+.thread-textile-fiber-17 {
+  position: absolute;
+  height: 5.906839vw;
+  left: 2.59372vw;
+  top: 27.89058vw;
+  width: 17.471142vw;
+}
+
+.div-88 {
+  position: absolute;
+  inset: -0.32% -0.11%;
+}
+
+.asteroid-and-prison-native-editable-visitor-p-1 {
+  position: absolute;
+  background-color: #486263;
+  height: 32.437507vw;
+  left: 50vw;
+  top: 3.125024vw;
+  width: 46.125005vw;
+}
+
+.asteroid-contour-1 {
+  position: absolute;
+  height: 30.312502vw;
+  left: 1.18744vw;
+  top: 1.125024vw;
+  width: 43.687498vw;
+}
+
+.div-89 {
+  position: absolute;
+  inset: -0.1% 0 -0.11% 0;
+}
+
+.asteroid-surface-lines-1 {
+  position: absolute;
+  height: 30.312502vw;
+  left: 5vw;
+  top: 1.125024vw;
+  width: 38.24999vw;
+}
+
+.cell-block-foundation-1 {
+  position: absolute;
+  background-color: #243e42;
+  height: 19.062493vw;
+  left: 10vw;
+  top: 6.125024vw;
+  width: 31.874995vw;
+}
+
+.north-cell-0-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 5.687498vw;
+  left: 10.874976vw;
+  top: 6.874976vw;
+  width: 5vw;
+}
+
+.south-cell-0-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 5.687498vw;
+  left: 10.874976vw;
+  top: 17.687536vw;
+  width: 5vw;
+}
+
+.p-116 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 11.624928vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 9vw;
+  width: 3.937507vw;
+}
+
+.north-cell-1-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 5.687498vw;
+  left: 16.749952vw;
+  top: 6.874976vw;
+  width: 5vw;
+}
+
+.south-cell-1-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 5.687498vw;
+  left: 16.749952vw;
+  top: 17.687536vw;
+  width: 5vw;
+}
+
+.p-117 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 17.499904vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 9vw;
+  width: 3.937507vw;
+}
+
+.north-cell-2-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 5.687498vw;
+  left: 22.624928vw;
+  top: 6.874976vw;
+  width: 5vw;
+}
+
+.south-cell-2-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 5.687498vw;
+  left: 22.624928vw;
+  top: 17.687536vw;
+  width: 5vw;
+}
+
+.p-118 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 23.375072vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 9vw;
+  width: 3.937507vw;
+}
+
+.north-cell-3-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 5.687498vw;
+  left: 28.500096vw;
+  top: 6.874976vw;
+  width: 5vw;
+}
+
+.south-cell-3-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 5.687498vw;
+  left: 28.500096vw;
+  top: 17.687536vw;
+  width: 5vw;
+}
+
+.p-119 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 29.250048vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 9vw;
+  width: 3.937507vw;
+}
+
+.north-cell-4-1 {
+  position: absolute;
+  background-color: #7d9091;
+  height: 5.687498vw;
+  left: 34.375072vw;
+  top: 6.874976vw;
+  width: 5vw;
+}
+
+.south-cell-4-1 {
+  position: absolute;
+  background-color: #7b8176;
+  height: 5.687498vw;
+  left: 34.375072vw;
+  top: 17.687536vw;
+  width: 5vw;
+}
+
+.p-120 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 35.125024vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #2b180a;
+  top: 9vw;
+  width: 3.937507vw;
+}
+
+.passage-1 {
+  position: absolute;
+  background-color: #d7d5c7;
+  height: 2.437507vw;
+  left: 10.874976vw;
+  top: 13.81256vw;
+  width: 30.125005vw;
+}
+
+.dock-03-1 {
+  position: absolute;
+  background-color: #d7d5c7;
+  height: 5.437507vw;
+  left: 1.562512vw;
+  top: 13.81256vw;
+  width: 7.812502vw;
+}
+
+.div-90 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 0;
+  left: 2.437488vw;
+  font-style: normal;
+  font-size: 0.874995vw;
+  color: #2b180a;
+  top: 14.81256vw;
+  width: 6.812502vw;
+}
+
+.red-thread-route-or-emphasis-18 {
+  position: absolute;
+  height: 6.015893vw;
+  left: 5.624928vw;
+  top: 14.874976vw;
+  width: 28.062493vw;
+}
+
+.div-91 {
+  position: absolute;
+  inset: -1.66% -0.36%;
+}
+
+.thread-textile-fiber-18 {
+  position: absolute;
+  height: 6.015893vw;
+  left: 5.662493vw;
+  top: 14.837411vw;
+  width: 28.062493vw;
+}
+
+.div-92 {
+  position: absolute;
+  inset: -0.31% 0;
+}
+
+.p-121 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 11.062416vw;
+  font-style: normal;
+  font-size: 0.812502vw;
+  color: #fbfcea;
+  top: 26.562512vw;
+  width: 30.625005vw;
+}
+
+.p-122 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 3.937584vw;
+  font-style: normal;
+  font-size: 0.74999vw;
+  color: #7d9091;
+  top: 36.437488vw;
+  width: 89.374995vw;
+}
+
+.arrival-concise-practical-details-1 {
+  background-color: #d7d5c7;
+  height: 24.874995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.personal-dossier-layered-leaf-11 {
+  position: absolute;
+  height: 17.874995vw;
+  left: 3.874976vw;
+  top: 3.250048vw;
+  width: 28.874995vw;
+}
+
+.folder-back-8 {
+  position: absolute;
+  height: 19.5vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 29.687498vw;
+}
+
+.div-93 {
+  position: absolute;
+  inset: -0.16% -0.11%;
+}
+
+.offset-sheet-8 {
+  position: absolute;
+  height: 18.062493vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 28.812502vw;
+}
+
+.div-94 {
+  position: absolute;
+  inset: -0.17% -0.11% -0.18% -0.11%;
+}
+
+.document-paper-8 {
+  position: absolute;
+  height: 17.874995vw;
+  left: 0;
+  top: 0;
+  width: 28.874995vw;
+}
+
+.div-95 {
+  position: absolute;
+  inset: -0.17% -0.11%;
+}
+
+.fold-detail-8 {
+  position: absolute;
+  height: 16.812502vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 27.625005vw;
+}
+
+.p-123 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.437488vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 25vw;
+}
+
+.p-124 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 1.562512vw;
+  font-size: 2.75001vw;
+  color: #2b180a;
+  top: 1.687536vw;
+  width: 25.625005vw;
+}
+
+.p-125 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.562512vw;
+  font-size: 1.187498vw;
+  color: #a3292b;
+  top: 7.18744vw;
+  width: 25.625005vw;
+}
+
+.div-96 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 1.562512vw;
+  font-size: 1.312502vw;
+  color: #6a4227;
+  top: 10.499904vw;
+  width: 25.625005vw;
+}
+
+.block-13 {
+  position: absolute;
+  height: 1.812502vw;
+  left: 1.562512vw;
+  top: 5.375072vw;
+  width: 24.125005vw;
+}
+
+.personal-dossier-layered-leaf-12 {
+  position: absolute;
+  height: 17.874995vw;
+  left: 35.562512vw;
+  top: 3.250048vw;
+  width: 28.874995vw;
+}
+
+.red-thread-route-or-emphasis-19 {
+  position: absolute;
+  height: 4.562011vw;
+  left: 0.874976vw;
+  top: 1.499904vw;
+  width: 26.24999vw;
+}
+
+.div-97 {
+  position: absolute;
+  inset: -1.71% -0.3%;
+}
+
+.thread-textile-fiber-19 {
+  position: absolute;
+  height: 4.562011vw;
+  left: 0.912541vw;
+  top: 1.462531vw;
+  width: 26.24999vw;
+}
+
+.div-98 {
+  position: absolute;
+  inset: -0.41% 0;
+}
+
+.personal-dossier-layered-leaf-13 {
+  position: absolute;
+  height: 17.874995vw;
+  left: 67.250048vw;
+  top: 3.250048vw;
+  width: 28.874995vw;
+}
+
+.a-25 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 74.375072vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 3.250048vw;
+  width: 18.74999vw;
+}
+
+.09-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 120.375005vw;
+}
+
+.entrance-4 {
+  background-color: #7b8176;
+  height: 21.25001vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.block-14 {
+  position: absolute;
+  height: 2.687498vw;
+  left: 3.749952vw;
+  top: 11.375072vw;
+  width: 35.874995vw;
+}
+
+.four-encounters-prison-program-dossiers-1 {
+  background-color: #7d9091;
+  height: 63vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.personal-dossier-layered-leaf-14 {
+  position: absolute;
+  height: 25.312502vw;
+  left: 3.937584vw;
+  top: 3.81256vw;
+  width: 44.562493vw;
+}
+
+.folder-back-9 {
+  position: absolute;
+  height: 26.937507vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 45.374995vw;
+}
+
+.offset-sheet-9 {
+  position: absolute;
+  height: 25.5vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 44.5vw;
+}
+
+.document-paper-9 {
+  position: absolute;
+  height: 25.312502vw;
+  left: 0;
+  top: 0;
+  width: 44.562493vw;
+}
+
+.fold-detail-9 {
+  position: absolute;
+  height: 24.25001vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 43.312502vw;
+}
+
+.p-126 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.499904vw;
+  font-style: normal;
+  font-size: 0.625005vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 41.062493vw;
+}
+
+.img-7 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1.1;
+  left: 1.769559vw;
+  font-size: 5.562493vw;
+  color: #243e42;
+  top: 2.650272vw;
+  width: 11.712579vw;
+  height: 4.642651vw;
+}
+
+.red-thread-route-or-emphasis-20 {
+  position: absolute;
+  height: 7.017877vw;
+  left: 0.738586vw;
+  top: 1.356193vw;
+  width: 14.323772vw;
+}
+
+.div-99 {
+  position: absolute;
+  inset: -1.11% -0.55%;
+}
+
+.thread-textile-fiber-20 {
+  position: absolute;
+  height: 7.017877vw;
+  left: 0.776151vw;
+  top: 1.318628vw;
+  width: 14.323772vw;
+}
+
+.div-100 {
+  position: absolute;
+  inset: -0.27% -0.13%;
+}
+
+.div-101 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 17.624928vw;
+  font-size: 3.125005vw;
+  color: #2b180a;
+  top: 2.624928vw;
+  width: 24.374995vw;
+}
+
+.p-127 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.81256vw;
+  font-size: 1.187498vw;
+  color: #a3292b;
+  top: 10.562512vw;
+  width: 41.062493vw;
+}
+
+.div-102 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 1.81256vw;
+  font-size: 1.24999vw;
+  color: #6a4227;
+  top: 14.312464vw;
+  width: 26.812502vw;
+}
+
+.v1-object-ribbon-1 {
+  position: absolute;
+  background-color: #e9dfc9;
+  height: 9.212502vw;
+  left: 29vw;
+  top: 13.437488vw;
+  width: 13.4vw;
+}
+
+.paper-outline-6 {
+  position: absolute;
+  height: 9.086881vw;
+  left: 0.083799vw;
+  top: 0;
+  width: 13.190618vw;
+}
+
+.wedding-ribbon-3 {
+  position: absolute;
+  height: 5.627856vw;
+  left: 2.456174vw;
+  top: 2.537854vw;
+  width: 8.611905vw;
+}
+
+.loose-end-3 {
+  position: absolute;
+  height: 2.242131vw;
+  left: -0.335003vw;
+  top: 6.15392vw;
+  width: 14.363128vw;
+}
+
+.p-128 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 0.795608vw;
+  font-style: normal;
+  font-size: 0.335003vw;
+  color: #6a4227;
+  top: 8.24947vw;
+  width: 11.892506vw;
+}
+
+.personal-dossier-layered-leaf-15 {
+  position: absolute;
+  height: 25.312502vw;
+  left: 51.437488vw;
+  top: 3.81256vw;
+  width: 44.562493vw;
+}
+
+.img-8 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1.1;
+  left: 1.769559vw;
+  font-size: 5.562493vw;
+  color: #243e42;
+  top: 2.650272vw;
+  width: 11.693315vw;
+  height: 4.642651vw;
+}
+
+.letter-paper-4 {
+  position: absolute;
+  background-color: #fbfcea;
+  height: 6.532499vw;
+  left: 2.386823vw;
+  top: 1.256213vw;
+  width: 8.8775vw;
+}
+
+.div-103 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 0;
+  left: 2.97303vw;
+  font-size: 0.670006vw;
+  color: #6a4227;
+  top: 1.758813vw;
+  width: 7.705009vw;
+}
+
+.underline-4 {
+  position: absolute;
+  height: 0.083741vw;
+  left: 3.056829vw;
+  top: 7.118667vw;
+  width: 6.406877vw;
+}
+
+.red-thread-route-or-emphasis-21 {
+  position: absolute;
+  height: 0.977846vw;
+  left: 1vw;
+  top: 8.253901vw;
+  width: 16.437507vw;
+}
+
+.div-104 {
+  position: absolute;
+  inset: -7.99% -0.48%;
+}
+
+.thread-textile-fiber-21 {
+  position: absolute;
+  height: 0.977846vw;
+  left: 1.037565vw;
+  top: 8.216529vw;
+  width: 16.437507vw;
+}
+
+.div-105 {
+  position: absolute;
+  inset: -1.92% -0.11%;
+}
+
+.personal-dossier-layered-leaf-16 {
+  position: absolute;
+  height: 25.312502vw;
+  left: 3.937584vw;
+  top: 33.562512vw;
+  width: 44.562493vw;
+}
+
+.img-9 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1.1;
+  left: 1.769559vw;
+  font-size: 5.562493vw;
+  color: #243e42;
+  top: 2.650272vw;
+  width: 11.211713vw;
+  height: 4.642651vw;
+}
+
+.ring-first-4 {
+  position: absolute;
+  height: 3.746118vw;
+  left: 4.121749vw;
+  top: 2.97303vw;
+  width: 3.369216vw;
+}
+
+.ring-second-4 {
+  position: absolute;
+  height: 4.063167vw;
+  left: 6.141784vw;
+  top: 2.397419vw;
+  width: 3.51649vw;
+}
+
+.thread-4 {
+  position: absolute;
+  height: 2.212811vw;
+  left: -0.837411vw;
+  top: 5.234444vw;
+  width: 14.991254vw;
+}
+
+.red-thread-route-or-emphasis-22 {
+  position: absolute;
+  height: 1.38272vw;
+  left: 1.250048vw;
+  top: 7.749952vw;
+  width: 13.562493vw;
+}
+
+.div-106 {
+  position: absolute;
+  inset: -6.1% -0.62%;
+}
+
+.thread-textile-fiber-22 {
+  position: absolute;
+  height: 1.38272vw;
+  left: 1.287421vw;
+  top: 7.712579vw;
+  width: 13.562493vw;
+}
+
+.div-107 {
+  position: absolute;
+  inset: -1.36% -0.14%;
+}
+
+.personal-dossier-layered-leaf-17 {
+  position: absolute;
+  height: 25.312502vw;
+  left: 51.437488vw;
+  top: 33.562512vw;
+  width: 44.562493vw;
+}
+
+.img-10 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Oswald";
+  font-weight: 500;
+  line-height: 1.1;
+  left: 1.769559vw;
+  font-size: 5.562493vw;
+  color: #243e42;
+  top: 2.650272vw;
+  width: 11.789636vw;
+  height: 4.642651vw;
+}
+
+.pressed-stem-5 {
+  position: absolute;
+  height: 3.601252vw;
+  left: 6.154498vw;
+  top: 3.852437vw;
+  width: 0.615604vw;
+}
+
+.petal-red-5 {
+  position: absolute;
+  height: 3.075862vw;
+  left: 5.051628vw;
+  top: 1.584666vw;
+  width: 3.577808vw;
+}
+
+.leaf-5 {
+  position: absolute;
+  height: 1.514602vw;
+  left: 5.138124vw;
+  top: 5.520324vw;
+  width: 2.461414vw;
+}
+
+.red-thread-route-or-emphasis-23 {
+  position: absolute;
+  height: 6.187498vw;
+  left: 1.062416vw;
+  top: 1.375072vw;
+  width: 14.687498vw;
+}
+
+.div-108 {
+  position: absolute;
+  inset: -1.36% -0.57%;
+}
+
+.thread-textile-fiber-23 {
+  position: absolute;
+  height: 6.187498vw;
+  left: 1.099981vw;
+  top: 1.337507vw;
+  width: 14.687498vw;
+}
+
+.div-109 {
+  position: absolute;
+  inset: -0.3% -0.13%;
+}
+
+.a-26 {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 53.437488vw;
+  font-size: 1vw;
+  color: #fbfcea;
+  text-align: left;
+  top: 6.437488vw;
+  width: 18.74999vw;
+}
+
+.10-5191-1 {
+  background-color: #fbfcea;
+  align-content: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  height: 140.562495vw;
+}
+
+.a-27 {
+  overflow-wrap: break-word;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 0;
+  left: 75.624928vw;
+  font-size: 1vw;
+  color: #243e42;
+  text-align: left;
+  top: 2.81256vw;
+  width: 10vw;
+}
+
+.entrance-5 {
+  background-color: #243e42;
+  height: 20.374995vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.p-129 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 3.749952vw;
+  font-size: 1.374995vw;
+  color: #e9dfc9;
+  top: 15.874976vw;
+  width: 75vw;
+}
+
+.block-15 {
+  position: absolute;
+  height: 2.75001vw;
+  left: 3.687536vw;
+  top: 11.250048vw;
+  width: 42.125005vw;
+}
+
+.nine-site-rooms-interactive-prison-navigation-1 {
+  background-color: #d7d5c7;
+  height: 98.74999vw;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.v2-cell-portal-7 {
+  position: absolute;
+  background-color: #d7d5c7;
+  height: 27.3vw;
+  left: 4.125024vw;
+  overflow: hidden;
+  top: 3.250048vw;
+  width: 29.25001vw;
+}
+
+.p-130 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 5.199961vw;
+  font-style: normal;
+  opacity: 0.76;
+  font-size: 0.780004vw;
+  color: #fbfcea;
+  top: 4.030052vw;
+  width: 16.9vw;
+}
+
+.p-131 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 1.05;
+  left: 5.265074vw;
+  font-size: 2.729917vw;
+  color: #fbfcea;
+  top: 8.189944vw;
+  width: 18.2vw;
+}
+
+.p-132 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.169909vw;
+  font-style: normal;
+  font-size: 0.649971vw;
+  color: #6a4227;
+  top: 1.040069vw;
+  width: 14.039992vw;
+}
+
+.p-133 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 500;
+  line-height: 1.25;
+  left: 1.169909vw;
+  font-size: 0.910037vw;
+  color: #2b180a;
+  top: 2.729917vw;
+  width: 13.845001vw;
+}
+
+.p-134 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 1.104989vw;
+  font-style: normal;
+  font-size: 0.780004vw;
+  color: #6a4227;
+  top: 25.544982vw;
+  width: 6.5vw;
+}
+
+.v2-cell-portal-8 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 35.937584vw;
+  overflow: hidden;
+  top: 3.250048vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-9 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 67.749952vw;
+  overflow: hidden;
+  top: 3.250048vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-10 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 4.125024vw;
+  overflow: hidden;
+  top: 34.937584vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-11 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 35.937584vw;
+  overflow: hidden;
+  top: 34.937584vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-12 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 67.749952vw;
+  overflow: hidden;
+  top: 34.937584vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-13 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 4.125024vw;
+  overflow: hidden;
+  top: 66.624928vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-14 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 35.937584vw;
+  overflow: hidden;
+  top: 66.624928vw;
+  width: 29.25001vw;
+}
+
+.v2-cell-portal-15 {
+  position: absolute;
+  background-color: #d7d5c7;
+  display: block;
+  cursor: pointer;
+  height: 27.3vw;
+  left: 67.749952vw;
+  overflow: hidden;
+  top: 66.624928vw;
+  width: 29.25001vw;
+}
+
+.red-thread-route-or-emphasis-24 {
+  position: absolute;
+  height: 95.899018vw;
+  left: 1.068966vw;
+  top: 1.375072vw;
+  width: 93.431054vw;
+}
+
+.div-110 {
+  position: absolute;
+  inset: 0 -0.1%;
+}
+
+.thread-textile-fiber-24 {
+  position: absolute;
+  height: 95.899018vw;
+  left: 1.106531vw;
+  top: 1.337507vw;
+  width: 93.431054vw;
+}
+
+.prototype-upload-1 {
+  background-color: #d7d5c7;
+  position: relative;
+  width: 100%;
+  height: 53.125vw;
+  min-height: 100vh;
+}
+
+.personal-dossier-layered-leaf-18 {
+  position: absolute;
+  height: 34.687498vw;
+  left: 23.125024vw;
+  top: 8.687536vw;
+  width: 53.75001vw;
+}
+
+.folder-back-10 {
+  position: absolute;
+  height: 36.312502vw;
+  left: -0.437488vw;
+  top: -1.125024vw;
+  width: 54.562493vw;
+}
+
+.offset-sheet-10 {
+  position: absolute;
+  height: 34.874995vw;
+  left: 0.437488vw;
+  top: 0;
+  width: 53.687498vw;
+}
+
+.document-paper-10 {
+  position: absolute;
+  height: 34.687498vw;
+  left: 0;
+  top: 0;
+  width: 53.75001vw;
+}
+
+.fold-detail-10 {
+  position: absolute;
+  height: 33.625005vw;
+  left: 1.250048vw;
+  top: 0;
+  width: 52.5vw;
+}
+
+.p-135 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "PT Mono";
+  line-height: 1.4;
+  left: 2.18744vw;
+  font-style: normal;
+  font-size: 0.687498vw;
+  color: #2b180a;
+  top: -0.937584vw;
+  width: 49.374995vw;
+}
+
+.h1-7 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Cormorant Garamond";
+  font-weight: 500;
+  line-height: 0;
+  left: 2.18744vw;
+  font-size: 4.562493vw;
+  color: #2b180a;
+  top: 2.937584vw;
+  width: 48.75001vw;
+}
+
+.span-3 {
+  line-height: 1.05;
+  margin-bottom: 0;
+  display: block;
+}
+
+.span-4 {
+  line-height: 1.05;
+  display: block;
+}
+
+.p-136 {
+  overflow-wrap: break-word;
+  position: absolute;
+  font-family: "Golos Text";
+  font-weight: 400;
+  line-height: 1.4;
+  left: 2.18744vw;
+  font-size: 1.562493vw;
+  color: #6a4227;
+  top: 14.250048vw;
+  width: 48.75001vw;
+}
+
+.v2-action-12 {
+  position: absolute;
+  background-color: #a3292b;
+  display: block;
+  cursor: pointer;
+  height: 3.74999vw;
+  left: 2.18744vw;
+  top: 27.18744vw;
+  width: 14.74999vw;
+}
+
+.red-thread-route-or-emphasis-25 {
+  position: absolute;
+  height: 5.776132vw;
+  left: 1.117511vw;
+  top: 26.366596vw;
+  width: 17.535388vw;
+}
+
+.div-111 {
+  position: absolute;
+  inset: -1.35% -0.45%;
+}
+
+.thread-textile-fiber-25 {
+  position: absolute;
+  height: 5.776132vw;
+  left: 1.155076vw;
+  top: 26.329224vw;
+  width: 17.535388vw;
+}
