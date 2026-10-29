@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url(../fonts/cormorant-garamond.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Golos Text";
+  src: url(../fonts/golos-text.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PT Mono";
+  src: url(../fonts/pt-mono.ttf) format("truetype");
+  font-weight: 400;
+}
