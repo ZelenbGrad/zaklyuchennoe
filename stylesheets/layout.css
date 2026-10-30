@@ -65,7 +65,7 @@ img {
   width: 46%;
 }
 
-/* Кнопки и ссылки */
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -100,7 +100,7 @@ a:focus-visible, input:focus, textarea:focus {
   outline-offset: 4px;
 }
 
-/* Верхнее меню и афиша */
+
 .header, .hero, .footer {
   background-color: #243e42;
   color: #fbfcea;
@@ -178,7 +178,7 @@ a:focus-visible, input:focus, textarea:focus {
   font-size: 10px;
 }
 
-/* История места */
+
 .history {
   padding: 40px 0;
   background-color: #d7d5c7;
@@ -202,7 +202,7 @@ a:focus-visible, input:focus, textarea:focus {
   margin-top: 22px;
 }
 
-/* Концепция и раскрытая папка */
+
 .concept {
   padding: 48px 0 0;
 }
@@ -245,7 +245,7 @@ a:focus-visible, input:focus, textarea:focus {
   font-size: 21px;
 }
 
-/* Три истории */
+
 .stories {
   padding: 36px 0 58px;
 }
@@ -285,7 +285,6 @@ a:focus-visible, input:focus, textarea:focus {
   font-size: 16px;
 }
 
-/* Билеты */
 .tickets {
   padding: 42px 0;
   background-color: #7d9091;
@@ -341,7 +340,6 @@ a:focus-visible, input:focus, textarea:focus {
   font-size: 11px;
 }
 
-/* Информация для посетителей и кофейня */
 .visit, .cafe {
   background-color: #e9dfc9;
 }
@@ -386,7 +384,7 @@ a:focus-visible, input:focus, textarea:focus {
   white-space: nowrap;
 }
 
-/* Нижняя часть страницы */
+
 .footer {
   padding: 40px 0;
 }
@@ -420,7 +418,7 @@ a:focus-visible, input:focus, textarea:focus {
   font-size: 46px;
 }
 
-/* Окно с формой. :target показывает блок, на который ведёт ссылка. */
+
 .modal {
   display: none;
   position: fixed;
@@ -502,7 +500,6 @@ a:focus-visible, input:focus, textarea:focus {
   font-size: 13px;
 }
 
-/* Планшеты */
 @media (max-width: 1000px) {
   .menubar > .label {
     display: none;
@@ -554,7 +551,6 @@ a:focus-visible, input:focus, textarea:focus {
   }
 }
 
-/* Телефоны */
 @media (max-width: 650px) {
   body {
     font-size: 16px;
